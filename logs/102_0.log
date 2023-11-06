@@ -1,0 +1,2807 @@
+
+
+#############################
+date and time = 2023-03-15 13:36:24
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-20 22:31:23
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-21 04:56:01
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-22 09:44:20
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-22 09:46:28
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-22 09:50:01
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 9, 13, 10, 8, 9]
+score_list: [6065, 25, 42, 24, 18, 19]
+dict_word_score: {'5a': 6065, '4a': 42, '26': 25, '22': 24, '1a': 19, 'a6': 18}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+26<--EXPECTED
+00100110
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+22<--EXPECTED
+00100010
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-03-22 14:58:21
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-22 17:00:25
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-22 17:19:43
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-22 17:47:23
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-22 18:48:31
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-22 19:35:29
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 02:14:22
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 16:14:13
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 16:30:16
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-23 16:47:26
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 17:02:20
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 17:34:59
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [8, 9, 9, 10, 12, 9]
+score_list: [6057, 25, 34, 24, 26, 19]
+dict_word_score: {'5a': 6057, '4a': 34, 'a6': 26, '26': 25, '22': 24, '1a': 19}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+a6<--EXPECTED
+10100110
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+1a<--EXPECTED
+00011010
+way: []
+
+#############################
+date and time = 2023-03-23 17:50:08
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 19:17:31
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 19:29:43
+22 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2}
+last state: a6
+state_list: ['26']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'26': 24}
+
+--------FAILURE--------
+22<--FOUND
+00100010
+26<--EXPECTED
+00100110
+-----------------------------------------
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+RECOMMENDED TO CHECK: 
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: ['a6']
+
+#############################
+date and time = 2023-03-23 21:46:59
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-24 06:08:25
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-24 06:41:49
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6041, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [6065, 17, 34, 16, 18, 27]
+dict_word_score: {'5a': 6065, '4a': 34, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []
+
+#############################
+date and time = 2023-03-30 02:07:33
+2a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6577, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.625, 0.75, 0.75, 0.875, 0.625, 0.75]
+score_list: [2.245459361283487, 1.5010594823671863, 1.50242167398214, 1.750605418495535, 1.2503027092477674, 1.5001513546238838]
+dict_word_score: {'5a': 2.245459361283487, '22': 1.750605418495535, '4a': 1.50242167398214, '26': 1.5010594823671863, '1a': 1.5001513546238838, 'a6': 1.2503027092477674}
+
+--------FAILURE--------
+2a<--FOUND
+00101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+22<--EXPECTED
+00100010
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+4a<--EXPECTED
+01001010
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-13 15:24:02
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6825, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.5, 0.625, 0.625, 0.75, 0.75, 0.625]
+score_list: [1.9956236323851204, 1.251021152443472, 1.2523340627279358, 1.500583515681984, 1.500291757840992, 1.250145878920496]
+dict_word_score: {'5a': 1.9956236323851204, '22': 1.500583515681984, 'a6': 1.500291757840992, '4a': 1.2523340627279358, '26': 1.251021152443472, '1a': 1.250145878920496}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+22<--EXPECTED
+00100010
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+a6<--EXPECTED
+10100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+4a<--EXPECTED
+01001010
+26<--EXPECTED
+00100110
+1a<--EXPECTED
+00011010
+way: []
+
+#############################
+date and time = 2023-04-13 23:38:29
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6825, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956236323851204, 1.251021152443472, 1.7523340627279358, 1.500583515681984, 1.000291757840992, 1.250145878920496]
+dict_word_score: {'5a': 2.4956236323851204, '4a': 1.7523340627279358, '22': 1.500583515681984, '26': 1.251021152443472, '1a': 1.250145878920496, 'a6': 1.000291757840992}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-14 04:38:37
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6825, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956236323851204, 1.251021152443472, 1.7523340627279358, 1.500583515681984, 1.000291757840992, 1.250145878920496]
+dict_word_score: {'5a': 2.4956236323851204, '4a': 1.7523340627279358, '22': 1.500583515681984, '26': 1.251021152443472, '1a': 1.250145878920496, 'a6': 1.000291757840992}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-14 07:25:10
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6825, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.375, 0.625, 0.5, 0.5, 0.875]
+score_list: [2.4956236323851204, 0.7510211524434719, 1.2523340627279358, 1.000583515681984, 1.000291757840992, 1.750145878920496]
+dict_word_score: {'5a': 2.4956236323851204, '1a': 1.750145878920496, '4a': 1.2523340627279358, '22': 1.000583515681984, 'a6': 1.000291757840992, '26': 0.7510211524434719}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+22<--EXPECTED
+00100010
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+a6<--EXPECTED
+10100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+way: []
+
+#############################
+date and time = 2023-04-16 15:02:53
+2a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.625, 0.75, 0.75, 0.875, 0.625, 0.75]
+score_list: [2.2456634865568086, 1.5010118531367447, 1.5023128071697023, 1.7505782017924256, 1.2502891008962127, 1.5001445504481064]
+dict_word_score: {'5a': 2.2456634865568086, '22': 1.7505782017924256, '4a': 1.5023128071697023, '26': 1.5010118531367447, '1a': 1.5001445504481064, 'a6': 1.2502891008962127}
+
+--------FAILURE--------
+2a<--FOUND
+00101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+22<--EXPECTED
+00100010
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+4a<--EXPECTED
+01001010
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:03:20
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:09:54
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:12:39
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:15:08
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:22:54
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 15:32:54
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6888, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956634865568086, 1.2510118531367447, 1.7523128071697023, 1.5005782017924256, 1.0002891008962127, 1.2501445504481064]
+dict_word_score: {'5a': 2.4956634865568086, '4a': 1.7523128071697023, '22': 1.5005782017924256, '26': 1.2510118531367447, '1a': 1.2501445504481064, 'a6': 1.0002891008962127}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-16 18:40:13
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-04-16 18:44:52
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-04-17 14:17:06
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6939, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956952216960824, 1.251004448270914, 1.7522958817620893, 1.5005739704405223, 1.0002869852202612, 1.2501434926101305]
+dict_word_score: {'5a': 2.4956952216960824, '4a': 1.7522958817620893, '22': 1.5005739704405223, '26': 1.251004448270914, '1a': 1.2501434926101305, 'a6': 1.0002869852202612}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-04-17 14:21:48
+6a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6939, '26': 7, '4a': 16, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [0.75, 0.625, 0.875, 0.75, 0.5, 0.625]
+score_list: [2.4956952216960824, 1.251004448270914, 1.7522958817620893, 1.5005739704405223, 1.0002869852202612, 1.2501434926101305]
+dict_word_score: {'5a': 2.4956952216960824, '4a': 1.7522958817620893, '22': 1.5005739704405223, '26': 1.251004448270914, '1a': 1.2501434926101305, 'a6': 1.0002869852202612}
+
+--------FAILURE--------
+6a<--FOUND
+01101010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+22<--EXPECTED
+00100010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+26<--EXPECTED
+00100110
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.7: FAILURE (EXHAUST MASKING ADV)
+way: []
+
+#############################
+date and time = 2023-05-23 17:09:14
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-23 23:24:29
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-23 23:26:04
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-23 23:59:43
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 00:02:02
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 00:09:22
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 00:54:09
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 01:27:31
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 01:29:58
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 01:54:23
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 02:14:40
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 02:25:56
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3230}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 14:54:45
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3372}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-24 14:59:59
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 3372}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 04:38:46
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4088}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 07:52:44
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4088}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 17:41:02
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 17:47:52
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 17:53:51
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 18:29:43
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 18:31:42
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 18:36:03
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 18:44:06
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-05-26 18:48:57
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 4129}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-11 17:50:19
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5241}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-11 17:52:28
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5241}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-11 17:56:15
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5241}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-11 18:20:59
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5241}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-11 19:20:57
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-06-11 20:44:27
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-06-14 13:51:55
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5356}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-21 10:43:09
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5645}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-21 21:34:20
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5645}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-22 10:26:59
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5645}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-22 10:30:02
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5645}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-22 10:34:16
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5645}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-27 23:00:41
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5874}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-06-30 04:43:41
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5985}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-01 02:16:09
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6018}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-06 17:15:20
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6235}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-06 18:04:32
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6235}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-06 18:24:17
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6235}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-07 17:36:14
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6298}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-07 17:40:14
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6298}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-09 15:33:29
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6342}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 06:19:34
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 06:25:15
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 06:41:52
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 07:58:25
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 07:59:33
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 08:29:14
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 08:31:48
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 08:33:18
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.5]
+score_list: [2.0]
+dict_word_score: {'5a': 2.0}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-11 08:34:42
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6366}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-12 21:34:18
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6479}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-16 17:42:38
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6620}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-17 22:30:56
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6639}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-18 14:57:19
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6698}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-18 15:07:35
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6698}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:12
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-07-19 22:26:20
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6767}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-20 10:46:52
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6767}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-20 13:41:33
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6805}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-20 13:44:17
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6805}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-22 06:45:43
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+5a<--EXPECTED
+01011010
+I102.6: FAILURE (EXHAUST MASKING RET)
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.1: FAILURE (OIL LEVEL GAUGE MASKING RET)
+way: ['5a']
+
+#############################
+date and time = 2023-08-10 16:22:28
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 6995}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-08-11 16:19:06
+4a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 7030}
+last state: None
+state_list: ['5a']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'5a': 2.75}
+
+--------FAILURE--------
+4a<--FOUND
+01001010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+RECOMMENDED TO CHECK: 
+way: []

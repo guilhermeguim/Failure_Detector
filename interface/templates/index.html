@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HMB - Failure Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='boxicons/css/boxicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sidebar_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <img id="logo" src="{{ url_for('static', filename='icons/logo-white-inline.png') }}" alt="logo" class="logo">
+        <i class='bx bx-menu bx-sm' id="btn" ></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="{{ url_for('history') }}">
+            <i class='bx bx-history bx-sm'></i>
+            <span class="links_name">Failure History</span>
+          </a>
+          <span class="tooltip">Failure History</span>
+        </li>
+        <li>
+          <a href="{{ url_for('run') }}">
+            <i class='bx bx-play-circle bx-sm' ></i>
+            <span class="links_name">Run</span>
+          </a>
+          <span class="tooltip">Run</span>
+        </li>
+        <li>
+          <a href="{{ url_for('add') }}">
+            <i class='bx bx-message-square-add bx-sm'></i>
+            <span class="links_name">Add New Area</span>
+          </a>
+          <span class="tooltip">Add New Area</span>
+        </li>
+        <li>
+          <a href="{{ url_for('edit') }}">
+          <i class='bx bx-edit bx-sm' ></i>
+          <span class="links_name">Edit Areas</span>
+        </a>
+        <span class="tooltip">Edit Areas</span>
+      </li>
+      <li>
+        <a href="{{ url_for('dashboard') }}">
+          <i class='bx bx-bar-chart-alt-2 bx-sm'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="{{ url_for('general_edit') }}">
+          <i class='bx bx-slider-alt bx-sm' ></i>
+          <span class="links_name">Parameters</span>
+        </a>
+        <span class="tooltip">General Parameters</span>
+      </li>
+
+      <li class="profile">
+        <a id="fullscreen-link">
+          <div class="profile-details">
+            <div class="name_job">
+              <div class="name">Full Screen</div>
+            </div>
+          </div>
+          <i class='bx bx-fullscreen bx-sm' id="fullscreen-toggle"></i>
+        </a>
+      </li>
+      
+      </ul>
+    </div>
+    <section class="home-section">
+        <div class="content">
+        <header class="header" id="header">
+
+          <div class="container">
+            {% block content %}
+            {% endblock %}  
+          </div>
+
+        </header>
+      </div> 
+    </section>
+
+      <!-- Page content -->
+
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/full_screen.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Failure History</title>
+    
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <script src="{{ url_for('static', filename='js/full_screen.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_hist.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/table_update.js') }}"></script>
+
+    <body onload="update_values(1);">
+      <div>
+        <div class="row justify-content-md">
+          <div class="col-auto">
+            <h1>Failure History</h1>
+          </div>
+
+          <div class="col-auto ms-auto align-items-center" id='drop'>
+            <a href="{{ url_for('manual_alarm_hist') }}">
+              <button class="btn btn-warning" id="teste-button">Manual/Alarm History</button>
+            </a>
+          </div>
+
+          <div class="col-auto ms-auto align-items-center" id='drop'>
+            <label for="class-dropdown" id="drop-menu">Class Filter:</label>
+            <div class="form-group d-inline-flex  col-auto">
+              <select class="form-select" aria-label="" id="class-dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">All</option>
+              </select>
+              <button class="btn btn-primary" id="filter-button" onclick="go_btn()">Go</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!-- Print Table from JS -->
+    <p>
+      <span id="result"> </span>
+    </p>
+
+    {% endblock %}
+  </body>
+</html>

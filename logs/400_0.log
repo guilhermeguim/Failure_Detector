@@ -1,0 +1,1081 @@
+
+
+#############################
+date and time = 2023-04-12 14:57:44
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 4516, '37': 2208, '33': 38}
+last state: None
+state_list: ['31', '37', '33']
+similar_list: [0.625, 0.875, 0.75]
+score_list: [1.9178497485950903, 2.076530612244898, 1.5056196391600118]
+dict_word_score: {'37': 2.076530612244898, '31': 1.9178497485950903, '33': 1.5056196391600118}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+37<--EXPECTED
+00110111
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.2: FAILURE (INVERTER BUSY)
+I401.1: FAILURE (INVERTER READY ON)
+33<--EXPECTED
+00110011
+way: []
+
+#############################
+date and time = 2023-04-16 18:44:52
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2204, '37': 53, 'b7': 12}
+last state: 31
+state_list: ['33', '37', 'b7']
+similar_list: [0.5, 0.375, 0.25]
+score_list: [1.9713530189510797, 0.7733583076245042, 0.5052886734244161]
+dict_word_score: {'33': 1.9713530189510797, '37': 0.7733583076245042, 'b7': 0.5052886734244161}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.5: FAILURE (INVERTER QUICK STOP)
+I401.4: FAILURE (INVERTER COAST DOWN)
+I401.1: FAILURE (INVERTER READY ON)
+I401.0: FAILURE (INVERTER READY FOR SW ON)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+b7<--EXPECTED
+10110111
+I401.7: FAILURE (INVERTER ALARM)
+way: ['31']
+
+#############################
+date and time = 2023-05-22 05:08:30
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 1535, '37': 762}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.418262951676099, 2.081737048323901]
+dict_word_score: {'31': 2.418262951676099, '37': 2.081737048323901}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 17:09:14
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 21:41:54
+37 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 1081}
+last state: 31
+state_list: ['33']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'33': 2.75}
+
+--------FAILURE--------
+37<--FOUND
+00110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-05-23 23:24:29
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 23:26:04
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 23:27:44
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 23:54:47
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-23 23:59:43
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 00:02:02
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 00:09:23
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 00:54:09
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 01:16:00
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 01:24:57
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 01:27:31
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 01:29:58
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 01:54:23
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 02:09:42
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 02:14:40
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 02:21:43
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 02:25:56
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 03:21:23
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2181, '37': 1078}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4192236882479285, 2.080776311752071]
+dict_word_score: {'31': 2.4192236882479285, '37': 2.080776311752071}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 13:37:41
+37 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 1127}
+last state: 31
+state_list: ['33']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'33': 2.75}
+
+--------FAILURE--------
+37<--FOUND
+00110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-05-24 14:53:14
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2273, '37': 1124}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.419119811598469, 2.080880188401531]
+dict_word_score: {'31': 2.419119811598469, '37': 2.080880188401531}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 14:54:45
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2273, '37': 1124}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.419119811598469, 2.080880188401531]
+dict_word_score: {'31': 2.419119811598469, '37': 2.080880188401531}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-24 14:59:59
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2273, '37': 1124}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.419119811598469, 2.080880188401531]
+dict_word_score: {'31': 2.419119811598469, '37': 2.080880188401531}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-25 09:02:08
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2768, '37': 1370}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.418922184630256, 2.081077815369744]
+dict_word_score: {'31': 2.418922184630256, '37': 2.081077815369744}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-26 02:39:25
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2775, '37': 1373}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4189971070395373, 2.0810028929604627]
+dict_word_score: {'31': 2.4189971070395373, '37': 2.0810028929604627}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-26 04:38:46
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2775, '37': 1373}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4189971070395373, 2.0810028929604627]
+dict_word_score: {'31': 2.4189971070395373, '37': 2.0810028929604627}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-26 05:39:20
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2775, '37': 1373}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4189971070395373, 2.0810028929604627]
+dict_word_score: {'31': 2.4189971070395373, '37': 2.0810028929604627}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-26 07:52:44
+33 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'31': 2775, '37': 1373}
+last state: None
+state_list: ['31', '37']
+similar_list: [0.875, 0.875]
+score_list: [2.4189971070395373, 2.0810028929604627]
+dict_word_score: {'31': 2.4189971070395373, '37': 2.0810028929604627}
+
+--------FAILURE--------
+33<--FOUND
+00110011
+31<--EXPECTED
+00110001
+-----------------------------------------
+I401.1: FAILURE (INVERTER READY ON)
+RECOMMENDED TO CHECK: 
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+way: []
+
+#############################
+date and time = 2023-05-31 21:01:00
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 1675, '37': 1}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.499403341288783, 1.7505966587112172]
+dict_word_score: {'33': 2.499403341288783, '37': 1.7505966587112172}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-13 22:09:17
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2231, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986571172784244, 1.7513428827215756]
+dict_word_score: {'33': 2.4986571172784244, '37': 1.7513428827215756}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-18 18:59:14
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2289, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986910994764395, 1.7513089005235603]
+dict_word_score: {'33': 2.4986910994764395, '37': 1.7513089005235603}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-18 22:03:35
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2289, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986910994764395, 1.7513089005235603]
+dict_word_score: {'33': 2.4986910994764395, '37': 1.7513089005235603}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-18 23:16:43
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2289, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986910994764395, 1.7513089005235603]
+dict_word_score: {'33': 2.4986910994764395, '37': 1.7513089005235603}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-19 00:57:38
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2289, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986910994764395, 1.7513089005235603]
+dict_word_score: {'33': 2.4986910994764395, '37': 1.7513089005235603}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-19 09:56:54
+b7 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2289, '37': 3}
+last state: 31
+state_list: ['33', '37']
+similar_list: [0.75, 0.875]
+score_list: [2.4986910994764395, 1.7513089005235603]
+dict_word_score: {'33': 2.4986910994764395, '37': 1.7513089005235603}
+
+--------FAILURE--------
+b7<--FOUND
+10110111
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.7: FAILURE (INVERTER ALARM)
+I401.2: FAILURE (INVERTER BUSY)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+I401.1: FAILURE (INVERTER READY ON)
+37<--EXPECTED
+00110111
+way: ['37', '33', '31']
+
+#############################
+date and time = 2023-07-22 06:45:43
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'33': 2349, '37': 4, 'b7': 1}
+last state: 31
+state_list: ['33', '37', 'b7']
+similar_list: [0.5, 0.375, 0.25]
+score_list: [1.997875955819881, 0.7516992353440951, 0.5004248088360238]
+dict_word_score: {'33': 1.997875955819881, '37': 0.7516992353440951, 'b7': 0.5004248088360238}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+33<--EXPECTED
+00110011
+-----------------------------------------
+I401.5: FAILURE (INVERTER QUICK STOP)
+I401.4: FAILURE (INVERTER COAST DOWN)
+I401.1: FAILURE (INVERTER READY ON)
+I401.0: FAILURE (INVERTER READY FOR SW ON)
+RECOMMENDED TO CHECK: 
+31<--EXPECTED
+00110001
+37<--EXPECTED
+00110111
+I401.2: FAILURE (INVERTER BUSY)
+b7<--EXPECTED
+10110111
+I401.7: FAILURE (INVERTER ALARM)
+way: ['37', '33', '31']

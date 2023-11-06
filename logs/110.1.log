@@ -1,0 +1,43 @@
+
+
+#############################
+date and time = 2023-03-03 00:35:24
+57 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'91': 889, '59': 881, '99': 861, '96': 2663, '56': 38, '95': 8, '16': 1, '90': 1}
+last state: None
+state_list: ['91', '59', '99', '96', '56', '95', '16', '90']
+similar_list: [8, 11, 7, 11, 15, 11, 12, 5]
+score_list: [905, 903, 875, 2685, 68, 30, 25, 11]
+dict_word_score: {'96': 2685, '91': 905, '59': 903, '99': 875, '56': 68, '95': 30, '16': 25, '90': 11}
+
+--------FAILURE--------
+57<--FOUND
+01010111
+96<--EXPECTED
+10010110
+-----------------------------------------
+I110.7: FAILURE (SHUTTLE #2 ANTIBACK DOWN)
+I110.6: FAILURE (SHUTTLE #2 ANTIBACK UP)
+I110.0: FAILURE (SHUTTLE #2 LIFTER UP)
+RECOMMENDED TO CHECK: 
+91<--EXPECTED
+10010001
+I110.2: FAILURE (SHUTTLE #2 AUTO TURN TURN)
+I110.1: FAILURE (SHUTTLE #2 LIFTER DOWN)
+59<--EXPECTED
+01011001
+I110.3: FAILURE (SHUTTLE #2 AUTO TURN RETURN)
+99<--EXPECTED
+10011001
+56<--EXPECTED
+01010110
+95<--EXPECTED
+10010101
+16<--EXPECTED
+00010110
+90<--EXPECTED
+10010000
+way: []

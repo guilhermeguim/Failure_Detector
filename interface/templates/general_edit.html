@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>General Parameters</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_add.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/confirm.js') }}"></script>
+
+    <h1>General Parameters</h1>
+
+    <p>Caution!! Just change this parameters if you know what you are doing.</p>
+    
+    <form  method="post" class="row g-3 needs-validation" novalidate>
+
+      <div class="col-md-6">
+        <label for="inputWcAdd" class="form-label">Work Complete Memory Address</label>
+        <input  value= "{{ record[1] }}" name="wcaddress" type="text" class="form-control" id="inputWcAdd" placeholder="Ex: 133" pattern="^[0-9]+$" required />
+        <div id="WcAddHelp" class="form-text">Memory Byte where Work Complete is located</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputWcSize" class="form-label">Work Complete Size:</label>
+        <input value= "{{ record[2] }}"  name="wcsize" type="text" class="form-control" id="inputWcSize" placeholder="Ex: 2 (Reads bytes 133 and 134)" pattern="^[0-9]+$" required /> 
+        <div id="sizeHelp" class="form-text">Size of the Work Complete word to be scanned</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputWcAddAlt" class="form-label">Work Complete Memory Address Alternative</label>
+        <input value= "{{ record[3] }}" name="altwcaddress" type="text" class="form-control" id="inputWcAddAlt" placeholder="Ex: 72" pattern="^[0-9]+$" required />
+        <div id="WcAddAltHelp" class="form-text">Provide an alternative address to be used as Work Complete</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputSizeAlt" class="form-label">Work Complete Alternative Addresses Size:</label>
+        <input value= "{{ record[4] }}" name="altwcsize" type="text" class="form-control" id="inputSizeAlt" placeholder="Ex: 2 (Reads bytes 72 and 73)" pattern="^[0-9]+$" required /> 
+        <div id="sizeAltHelp" class="form-text">Size of the Work Complete word to be scanned</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="inputManualByte" class="form-label">Manual Bytes Addresses:</label>
+        <input value= "{{ record[6] }}" name="manualbytes" type="text" class="form-control" id="inputManualByte" placeholder="Ex: 5, 53" pattern="^\s*\d+(\s*,\s*\d+)*,?\s*$" required />
+        <div id="manualByteHelp" class="form-text">List of Manual Bytes, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 5, 53</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputManualBit" class="form-label">Manual Bits Addresses:</label>
+        <input value= "{{ record[7] }}" name="manualbits" type="text" class="form-control" id="inputManualBit" placeholder="Ex: 0, 5 (Reads bytes 5.0 and 53.5)" pattern="^\s*[0-7](\s*,\s*[0-7])*,?\s*$" required />
+        <div id="manualBitHelp" class="form-text">List of Manual Bits ordered with last field, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 0, 5</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputManualTypes" class="form-label">Manual Addresses Types:</label>
+        <input value= "{{ record[5] }}" name="manualtypes" type="text" class="form-control" id="inputManualTypes" placeholder="Ex: Areas.MK,Areas.MK" pattern="^\s*(INPUT|MEMORY|input|memory|Input|Memory)(\s*,\s*(INPUT|MEMORY|input|memory|Input|Memory))*,?\s*$" required />
+        <div id="manualTypesHelp" class="form-text">Manual Types ordered, sep. with comma. INPUT or MEMORY</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid, suggested: MEMORY,INPUT</div>
+      </div>
+      
+      <div class="col-md-4">
+        <label for="inputAlarmByte" class="form-label">Alarm Bytes Addresses:</label>
+        <input value= "{{ record[9] }}" name="alarmbytes" type="text" class="form-control" id="inputAlarmByte" placeholder="Ex: 5,53" pattern="^\s*\d+(\s*,\s*\d+)*,?\s*$" required />
+        <div id="alarmByteHelp" class="form-text">List of Alarm Bytes, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 5, 53</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputAlarmBit" class="form-label">Alarm Bits Addresses:</label>
+        <input value= "{{ record[10] }}" name="alarmbits" type="text" class="form-control" id="inputAlarmBit" placeholder="Ex: 0,5 (Reads bytes 5.0 and 53.5)" pattern="^\s*[0-7](\s*,\s*[0-7])*,?\s*$" required />
+        <div id="manualBitHelp" class="form-text">List of Alarm Bits ordered with last field, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 0, 5</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputAlarmTypes" class="form-label">Alarm Addresses Types:</label>
+        <input value= "{{ record[8] }}" name="alarmtypes" type="text" class="form-control" id="inputAlarmTypes" placeholder="Ex: Areas.MK,Areas.MK" pattern="^\s*(INPUT|MEMORY|input|memory|Input|Memory)(\s*,\s*(INPUT|MEMORY|input|memory|Input|Memory))*,?\s*$" required />
+        <div id="alarmTypesHelp" class="form-text">Alarm Types ordered, sep. with comma.  INPUT or MEMORY</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid, suggested: MEMORY,INPUT</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputBlockStart" class="form-label">Input Blocks Start Addresses:</label>
+        <input value= "{{ record[11] }}" name="blockbytes" type="text" class="form-control" id="inputBlockStart" placeholder="Ex: 0,100" pattern="^\s*\d+(\s*,\s*\d+)*,?\s*$" required />
+        <div id="blockStartHelp" class="form-text">Reading block start addresses, separated with comma.</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 0, 100</div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputBlockSize" class="form-label">Input Blocks Size:</label>
+        <input value= "{{ record[12] }}" name="blocksize" type="text" class="form-control" id="inputBlockSize" placeholder="Ex: 20,101 (Reads a block with bytes from 0 to 19)" pattern="^\s*\d+(\s*,\s*\d+)*,?\s*$" required />
+        <div id="blockSizeHelp" class="form-text">Reading block sizes ordered, separated with comma.</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 20, 101</div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="inputIP" class="form-label">PLC IP:</label>
+        <input value= "{{ record[13] }}" name="plcip" type="text" class="form-control" id="inputIP" placeholder="Ex: 140.100.101.1" pattern="^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$" required />
+        <div id="IPHelp" class="form-text">PLC IP Address to Read</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid IP Address</div>
+      </div>
+      <div class="col-md-3">
+        <label for="inputRack" class="form-label">PLC Rack:</label>
+        <input value= "{{ record[14] }}" name="plcrack" type="text" class="form-control" id="inputRack" placeholder="Ex: 0" pattern="^[0-9]+$" required />
+        <div id="RackHelp" class="form-text">PLC Rack to Read</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-3">
+        <label for="inputSlot" class="form-label">PLC Slot:</label>
+        <input value= "{{ record[15] }}" name="plcslot" type="text" class="form-control" id="inputSlot" placeholder="Ex: 2" pattern="^[0-9]+$" required />
+        <div id="SlotHelp" class="form-text">PLC Slot to Read</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-3">
+        <label for="inputPort" class="form-label">PLC TCP PORT:</label>
+        <input value= "{{ record[16] }}" name="plctcp" type="text" class="form-control" id="inputPort" placeholder="Ex: 102" pattern="^[0-9]+$" required />
+        <div id="PortHelp" class="form-text">PLC Port to Read</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-12">
+        <input type="submit" class="btn btn-primary" value="Save" onclick="return confirmChange();">
+      </div>
+    </form>
+      
+    <script src="{{ url_for('static', filename='js/validation.js') }}"></script>
+    {% endblock %}
+  </body>
+</html>

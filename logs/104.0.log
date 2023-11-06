@@ -1,0 +1,135 @@
+
+
+#############################
+date and time = 2023-03-02 11:43:32
+41 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'55': 2, '61': 2}
+last state: 69
+state_list: ['55', '61']
+similar_list: [10, 11]
+score_list: [22, 24]
+dict_word_score: {'61': 24, '55': 22}
+
+--------FAILURE--------
+41<--FOUND
+01000001
+61<--EXPECTED
+01100001
+-----------------------------------------
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+RECOMMENDED TO CHECK: 
+69<--EXPECTED
+01101001
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+55<--EXPECTED
+01010101
+I104.4: FAILURE (HEAD CLAMP #3 UNCLAMP)
+I104.2: FAILURE (HEAD CLAMP #2 UNCLAMP)
+way: ['6a', '68', '69']
+
+#############################
+date and time = 2023-03-06 01:30:38
+a1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'81': 1}
+last state: a9
+state_list: ['81']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'81': 23}
+
+--------FAILURE--------
+a1<--FOUND
+10100001
+81<--EXPECTED
+10000001
+-----------------------------------------
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+RECOMMENDED TO CHECK: 
+a9<--EXPECTED
+10101001
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+way: ['aa', 'a8', 'a9']
+
+#############################
+date and time = 2023-03-06 01:49:36
+a1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'81': 1}
+last state: a9
+state_list: ['81']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'81': 23}
+
+--------FAILURE--------
+a1<--FOUND
+10100001
+81<--EXPECTED
+10000001
+-----------------------------------------
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+RECOMMENDED TO CHECK: 
+a9<--EXPECTED
+10101001
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+way: ['aa', 'a8', 'a9']
+
+#############################
+date and time = 2023-03-06 03:05:41
+a1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'81': 1}
+last state: a9
+state_list: ['81']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'81': 23}
+
+--------FAILURE--------
+a1<--FOUND
+10100001
+81<--EXPECTED
+10000001
+-----------------------------------------
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+RECOMMENDED TO CHECK: 
+a9<--EXPECTED
+10101001
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+way: ['aa', 'a8', 'a9']
+
+#############################
+date and time = 2023-03-06 09:12:32
+a1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'81': 1}
+last state: a9
+state_list: ['81']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'81': 23}
+
+--------FAILURE--------
+a1<--FOUND
+10100001
+81<--EXPECTED
+10000001
+-----------------------------------------
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+RECOMMENDED TO CHECK: 
+a9<--EXPECTED
+10101001
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+way: ['aa', 'a8', 'a9']

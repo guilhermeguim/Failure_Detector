@@ -1,0 +1,777 @@
+
+
+#############################
+date and time = 2023-03-16 07:36:57
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 375, 'c': 659, '4f': 675, 'f': 302}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [395, 681, 699, 328]
+dict_word_score: {'4f': 699, 'c': 681, '1c': 395, 'f': 328}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-03-21 12:23:27
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 512, 'c': 876, '4f': 906, 'f': 408}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [532, 898, 930, 434]
+dict_word_score: {'4f': 930, 'c': 898, '1c': 532, 'f': 434}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-03-22 12:18:51
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 512, 'c': 876, '4f': 906, 'f': 408}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [532, 898, 930, 434]
+dict_word_score: {'4f': 930, 'c': 898, '1c': 532, 'f': 434}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-03-29 17:57:25
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 610, 'c': 1051, '4f': 1087, 'f': 488}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [0.75, 0.875, 0.75, 0.875]
+score_list: [1.6885043263288009, 2.0747836835599505, 1.8359085290482078, 1.9008034610630409]
+dict_word_score: {'c': 2.0747836835599505, 'f': 1.9008034610630409, '4f': 1.8359085290482078, '1c': 1.6885043263288009}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+f<--EXPECTED
+00001111
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+4f<--EXPECTED
+01001111
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+way: []
+
+#############################
+date and time = 2023-04-03 04:13:24
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 1185, '4d': 3}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4974747474747474, 1.5025252525252526]
+dict_word_score: {'f': 2.4974747474747474, '4d': 1.5025252525252526}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-04-04 14:00:25
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 1221, '4d': 3}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.497549019607843, 1.5024509803921569]
+dict_word_score: {'f': 2.497549019607843, '4d': 1.5024509803921569}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-04-14 05:38:25
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 664, 'c': 1115, '4f': 1165, 'f': 524}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [0.75, 0.875, 0.75, 0.875]
+score_list: [1.6914648212226067, 2.071510957324106, 1.835928489042676, 1.9010957324106112]
+dict_word_score: {'c': 2.071510957324106, 'f': 1.9010957324106112, '4f': 1.835928489042676, '1c': 1.6914648212226067}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+f<--EXPECTED
+00001111
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+4f<--EXPECTED
+01001111
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+way: []
+
+#############################
+date and time = 2023-04-16 15:01:32
+f <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 2066}
+last state: c
+state_list: ['1c']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'1c': 2.25}
+
+--------FAILURE--------
+f<--FOUND
+00001111
+1c<--EXPECTED
+00011100
+-----------------------------------------
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+way: ['c']
+
+#############################
+date and time = 2023-04-16 15:09:21
+f <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 2066}
+last state: c
+state_list: ['1c']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'1c': 2.25}
+
+--------FAILURE--------
+f<--FOUND
+00001111
+1c<--EXPECTED
+00011100
+-----------------------------------------
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+way: ['4f', 'f', 'c']
+
+#############################
+date and time = 2023-04-16 15:41:21
+5c <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'c': 2102}
+last state: 1c
+state_list: ['c']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'c': 2.5}
+
+--------FAILURE--------
+5c<--FOUND
+01011100
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+RECOMMENDED TO CHECK: 
+1c<--EXPECTED
+00011100
+way: ['1c']
+
+#############################
+date and time = 2023-04-24 17:27:52
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 714, 'c': 1175, '4f': 1242, 'f': 556}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [0.75, 0.875, 0.75, 0.875]
+score_list: [1.693653376729048, 2.0686872796311366, 1.8368592351505288, 1.9008001084892867]
+dict_word_score: {'c': 2.0686872796311366, 'f': 1.9008001084892867, '4f': 1.8368592351505288, '1c': 1.693653376729048}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+f<--EXPECTED
+00001111
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+4f<--EXPECTED
+01001111
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+way: []
+
+#############################
+date and time = 2023-04-27 17:34:28
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 1440, '4d': 3}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.497920997920998, 1.502079002079002]
+dict_word_score: {'f': 2.497920997920998, '4d': 1.502079002079002}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-05-12 07:35:26
+4d <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 1027, 'c': 1558, '4f': 1717, 'f': 765}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [0.625, 0.75, 0.875, 0.75]
+score_list: [1.4526840339451352, 1.8074797710676929, 2.0888592855733177, 1.6509769094138544]
+dict_word_score: {'4f': 2.0888592855733177, 'c': 1.8074797710676929, 'f': 1.6509769094138544, '1c': 1.4526840339451352}
+
+--------FAILURE--------
+4d<--FOUND
+01001101
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+f<--EXPECTED
+00001111
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+way: []
+
+#############################
+date and time = 2023-05-16 12:46:24
+4c <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 1076, 'c': 1602, '4f': 1777, 'f': 793}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [0.75, 0.875, 0.75, 0.625]
+score_list: [1.705030487804878, 2.0552591463414633, 1.8386051829268293, 1.4011051829268293]
+dict_word_score: {'c': 2.0552591463414633, '4f': 1.8386051829268293, '1c': 1.705030487804878, 'f': 1.4011051829268293}
+
+--------FAILURE--------
+4c<--FOUND
+01001100
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-06-14 07:01:45
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'c': 1169, '1c': 1491, '4f': 1789, 'f': 783, '4d': 4}
+last state: None
+state_list: ['c', '1c', '4f', 'f', '4d']
+similar_list: [0.875, 0.75, 0.75, 0.875, 0.625]
+score_list: [1.9732620320855614, 1.78475935828877, 1.8416730328495035, 1.8995416348357526, 1.2507639419404126]
+dict_word_score: {'c': 1.9732620320855614, 'f': 1.8995416348357526, '4f': 1.8416730328495035, '1c': 1.78475935828877, '4d': 1.2507639419404126}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+c<--EXPECTED
+00001100
+-----------------------------------------
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+f<--EXPECTED
+00001111
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+4f<--EXPECTED
+01001111
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+4d<--EXPECTED
+01001101
+way: []
+
+#############################
+date and time = 2023-06-15 02:56:33
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2122, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4990583804143127, 1.5009416195856873]
+dict_word_score: {'f': 2.4990583804143127, '4d': 1.5009416195856873}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-06-16 02:54:15
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2144, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.499068033550792, 1.5009319664492078]
+dict_word_score: {'f': 2.499068033550792, '4d': 1.5009319664492078}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-06-19 18:27:38
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2187, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4990863407948836, 1.5009136592051164]
+dict_word_score: {'f': 2.4990863407948836, '4d': 1.5009136592051164}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-06-26 12:11:49
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2313, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4991360691144706, 1.5008639308855292]
+dict_word_score: {'f': 2.4991360691144706, '4d': 1.5008639308855292}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-06-26 22:32:01
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2313, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4991360691144706, 1.5008639308855292]
+dict_word_score: {'f': 2.4991360691144706, '4d': 1.5008639308855292}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-06-30 04:12:39
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2374, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.499158249158249, 1.5008417508417509]
+dict_word_score: {'f': 2.499158249158249, '4d': 1.5008417508417509}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-07-03 13:38:26
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2421, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4991745769706974, 1.5008254230293026]
+dict_word_score: {'f': 2.4991745769706974, '4d': 1.5008254230293026}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-07-03 18:49:53
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2421, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4991745769706974, 1.5008254230293026]
+dict_word_score: {'f': 2.4991745769706974, '4d': 1.5008254230293026}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-07-04 06:45:38
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2421, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4991745769706974, 1.5008254230293026]
+dict_word_score: {'f': 2.4991745769706974, '4d': 1.5008254230293026}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-07-06 02:40:58
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2460, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.499187652315191, 1.5008123476848092]
+dict_word_score: {'f': 2.499187652315191, '4d': 1.5008123476848092}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f']
+
+#############################
+date and time = 2023-07-08 04:39:11
+4e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'f': 2512, '4d': 2}
+last state: 4f
+state_list: ['f', '4d']
+similar_list: [0.75, 0.75]
+score_list: [2.4992044550517103, 1.5007955449482895]
+dict_word_score: {'f': 2.4992044550517103, '4d': 1.5007955449482895}
+
+--------FAILURE--------
+4e<--FOUND
+01001110
+f<--EXPECTED
+00001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+4f<--EXPECTED
+01001111
+4d<--EXPECTED
+01001101
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', 'f', '4f', 'f', '4f']

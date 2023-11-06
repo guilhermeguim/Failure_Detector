@@ -1,0 +1,189 @@
+
+
+#############################
+date and time = 2023-04-16 18:40:13
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a': 2326}
+last state: b
+state_list: ['a']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'a': 2.5}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+a<--EXPECTED
+00001010
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+RECOMMENDED TO CHECK: 
+b<--EXPECTED
+00001011
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['b']
+
+#############################
+date and time = 2023-04-16 18:44:52
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a': 4442, 'b': 2473}
+last state: None
+state_list: ['a', 'b']
+similar_list: [0.75, 0.625]
+score_list: [2.14237165582068, 1.6076283441793202]
+dict_word_score: {'a': 2.14237165582068, 'b': 1.6076283441793202}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+a<--EXPECTED
+00001010
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+RECOMMENDED TO CHECK: 
+b<--EXPECTED
+00001011
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: []
+
+#############################
+date and time = 2023-06-11 19:20:57
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b': 1762}
+last state: a
+state_list: ['b']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'b': 2.25}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+b<--EXPECTED
+00001011
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+way: ['a']
+
+#############################
+date and time = 2023-06-11 20:44:27
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b': 1762}
+last state: a
+state_list: ['b']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'b': 2.25}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+b<--EXPECTED
+00001011
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+way: ['a']
+
+#############################
+date and time = 2023-07-11 08:33:18
+2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b': 2155, 'a': 4243}
+last state: None
+state_list: ['b', 'a']
+similar_list: [0.75, 0.875]
+score_list: [1.8368240075023445, 2.4131759924976555]
+dict_word_score: {'a': 2.4131759924976555, 'b': 1.8368240075023445}
+
+--------FAILURE--------
+2<--FOUND
+00000010
+a<--EXPECTED
+00001010
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+RECOMMENDED TO CHECK: 
+b<--EXPECTED
+00001011
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:12
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b': 2223}
+last state: a
+state_list: ['b']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'b': 2.25}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+b<--EXPECTED
+00001011
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+way: ['a']
+
+#############################
+date and time = 2023-07-22 06:45:43
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b': 2268}
+last state: a
+state_list: ['b']
+similar_list: [0.625]
+score_list: [2.25]
+dict_word_score: {'b': 2.25}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+b<--EXPECTED
+00001011
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+way: ['a']

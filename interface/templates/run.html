@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Run</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_run.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/confirm.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/socket.io.js') }}"></script>
+    <script>
+      // Estabeleça a conexão WebSocket
+      const socket = io.connect();
+
+      // Receba as atualizações de mensagens e variáveis
+      socket.on('update_data', function(data) {
+
+          console.log('recebi coisa')
+
+          const statusAnalisys = document.getElementById('status-analisys');
+          const statusTraining = document.getElementById('status-training');
+
+          // Atualize as variáveis status_analisys e status_training
+          if (data.status_analisys === 1){
+            statusAnalisys.innerHTML = '<span class="dot" style="background-color: green;"></span><p class="an_label">Analysis Running</p>';
+          }else{
+            statusAnalisys.innerHTML = '<span class="dot" style="background-color: red;"></span><p class="an_label">Analysis Stopped</p>';
+          }
+          
+          if (data.status_training === 1){
+            statusTraining.innerHTML = '<span class="dot" style="background-color: green;"></span><p class="an_label">Training Running</p>';
+          }else{
+            statusTraining.innerHTML = '<span class="dot" style="background-color: red;"></span><p class="an_label">Training Stopped</p>';
+          }
+          
+      });
+    </script>
+    <h1>Run Analysis/Training</h1>
+    
+    <p>Use this page to start and Stop the Analysis or Training.</p>
+    <p>The system is only able to run one of the option at a time.</p>
+
+    <div class="trained">
+      {% if trained == 1 %}
+      <span class="dot" style="background-color: green;"></span>
+      <p class="an_label">The model is already trained</p>
+      {% elif trained == 0 %}
+      <span class="dot" style="background-color: red;"></span>
+      <p class="an_label">The model is not trained</p>
+      {% endif %}
+    </div>
+
+    <div class='row1'>
+      <form class="button" action="/run_analisys" method="post">
+        <button onclick="return confirmRunAnalisys();"class="btn btn-primary" type="submit">Run Analisys</button>
+      </form>
+
+      <form class="button" action="/stop_analisys" method="post">
+        <button onclick="return confirmStop();" class="btn btn-primary" type="submit">Stop Analisys</button>
+      </form>
+
+      <span id="status-analisys">{% if status_analisys == 1 %}
+        <span class="dot" style="background-color: green;"></span>
+        <p class="an_label">Analysis Running</p>
+        {% elif status_analisys == 0 %}
+        <span class="dot" style="background-color: red;"></span>
+        <p class="an_label">Analysis Stopped</p>
+        {% endif %}
+      </span>
+    </div>
+
+    <div class='row2'>
+      <form class="button" action="/run_training" method="post">
+          <label for="inputTime" class="form-label">Training Time(Min):</label>
+          <input name="time" type="text" class="form-control" id="inputTime" placeholder="Time in Minutes" pattern="^[0-9]+$" required />
+        <button onclick="return confirmRunTraining();" class="btn btn-primary" type="submit">Run Training</button>
+      </form>
+
+      <form class="button" action="/stop_training" method="post">
+        <button onclick="return confirmStop();" class="btn btn-primary" type="submit">Stop Training</button>
+      </form>
+
+      <span id="status-training">{% if status_training == 1 %}
+        <span class="dot" style="background-color: green;"></span>
+        <p class="an_label">Training Running</p>
+        {% elif status_training == 0 %}
+        <span class="dot" style="background-color: red;"></span>
+        <p class="an_label">Training Stopped</p>
+        {% endif %}
+      </span>
+    </div>
+
+    
+
+    
+    <script src="{{ url_for('static', filename='js/validation.js') }}"></script>
+    {% endblock %}
+  </body>
+</html>

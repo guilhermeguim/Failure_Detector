@@ -1,0 +1,39 @@
+table {
+    table-layout:fixed;
+    vertical-align: middle;
+}
+
+.edit{
+    color: #e0e5ec;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+tr{
+    line-height: 3;
+}
+
+#table-container {
+    height: 410px; 
+    overflow-y: scroll;
+}
+
+#t_head {
+    position: sticky; 
+    top: 0; z-index: 1;
+    font-size: 13px;
+}
+
+th{
+    line-height: 1.5;
+    font-size: 11px;
+}
+
+td{
+    font-size: 14px;
+    font-weight: bold;
+    word-wrap:break-word;
+}
+
+
+

@@ -1,0 +1,40 @@
+
+/*FORM add*/
+
+.form-control{
+    font-size: 14px;
+}
+
+.form-text{
+    font-size: 12px;
+}
+
+.invalid-feedback{
+    font-size: 11px;
+}
+
+.form-label{
+    font-size: 15px;
+}
+
+.return-btn {
+    display: flex;
+    align-items: center;
+}
+
+.return-btn i {
+    display: inline-block;
+}
+
+.bx {
+    color: #053266;
+    vertical-align: middle;
+}
+
+P{
+    color: rgb(175, 3, 3);
+    font-family: 'Roboto Bold', sans-serif;
+}
+.btn{
+    margin-bottom: 15px;
+}

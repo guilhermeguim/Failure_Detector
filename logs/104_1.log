@@ -1,0 +1,138 @@
+
+
+#############################
+date and time = 2023-04-01 02:15:45
+a8 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'55': 4370, 'aa': 1105, '6a': 1043, '2a': 55}
+last state: None
+state_list: ['55', 'aa', '6a', '2a']
+similar_list: [0.125, 0.875, 0.625, 0.75]
+score_list: [0.914841016278716, 1.9181119732237943, 1.4086794462193823, 1.5083675642781074]
+dict_word_score: {'aa': 1.9181119732237943, '2a': 1.5083675642781074, '6a': 1.4086794462193823, '55': 0.914841016278716}
+
+--------FAILURE--------
+a8<--FOUND
+10101000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I104.1: FAILURE (HEAD CLAMP #1 CLAMP)
+RECOMMENDED TO CHECK: 
+2a<--EXPECTED
+00101010
+I104.7: FAILURE (nan)
+6a<--EXPECTED
+01101010
+I104.6: FAILURE (nan)
+55<--EXPECTED
+01010101
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+I104.4: FAILURE (HEAD CLAMP #3 UNCLAMP)
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+I104.2: FAILURE (HEAD CLAMP #2 UNCLAMP)
+I104.0: FAILURE (HEAD CLAMP #1 UNCLAMP)
+way: []
+
+#############################
+date and time = 2023-04-04 22:29:36
+a8 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'2a': 2, '6a': 3}
+last state: aa
+state_list: ['2a', '6a']
+similar_list: [0.75, 0.625]
+score_list: [1.9, 1.85]
+dict_word_score: {'2a': 1.9, '6a': 1.85}
+
+--------FAILURE--------
+a8<--FOUND
+10101000
+2a<--EXPECTED
+00101010
+-----------------------------------------
+I104.7: FAILURE (nan)
+I104.1: FAILURE (HEAD CLAMP #1 CLAMP)
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+6a<--EXPECTED
+01101010
+I104.6: FAILURE (nan)
+way: ['aa']
+
+#############################
+date and time = 2023-04-19 05:16:06
+a1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'55': 4659, 'aa': 1249, '6a': 1048, '2a': 59}
+last state: None
+state_list: ['55', 'aa', '6a', '2a']
+similar_list: [0.375, 0.625, 0.375, 0.5]
+score_list: [1.4141482537419816, 1.4280470420527442, 0.8993941553813257, 1.0084105488239488]
+dict_word_score: {'aa': 1.4280470420527442, '55': 1.4141482537419816, '2a': 1.0084105488239488, '6a': 0.8993941553813257}
+
+--------FAILURE--------
+a1<--FOUND
+10100001
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+I104.1: FAILURE (HEAD CLAMP #1 CLAMP)
+I104.0: FAILURE (HEAD CLAMP #1 UNCLAMP)
+RECOMMENDED TO CHECK: 
+55<--EXPECTED
+01010101
+I104.7: FAILURE (nan)
+I104.6: FAILURE (nan)
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+I104.4: FAILURE (HEAD CLAMP #3 UNCLAMP)
+I104.2: FAILURE (HEAD CLAMP #2 UNCLAMP)
+2a<--EXPECTED
+00101010
+6a<--EXPECTED
+01101010
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:44
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'55': 4485, '2a': 408, '6a': 1522, 'aa': 344}
+last state: None
+state_list: ['55', '2a', '6a', 'aa']
+similar_list: [0.5, 0.625, 0.5, 0.5]
+score_list: [1.663559698180204, 1.310363959165557, 1.225181239828377, 1.0508951028258617]
+dict_word_score: {'55': 1.663559698180204, '2a': 1.310363959165557, '6a': 1.225181239828377, 'aa': 1.0508951028258617}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+55<--EXPECTED
+01010101
+-----------------------------------------
+I104.6: FAILURE (nan)
+I104.4: FAILURE (HEAD CLAMP #3 UNCLAMP)
+I104.2: FAILURE (HEAD CLAMP #2 UNCLAMP)
+I104.0: FAILURE (HEAD CLAMP #1 UNCLAMP)
+RECOMMENDED TO CHECK: 
+2a<--EXPECTED
+00101010
+I104.5: FAILURE (HEAD CLAMP #3 CLAMP)
+I104.3: FAILURE (HEAD CLAMP #2 CLAMP)
+I104.1: FAILURE (HEAD CLAMP #1 CLAMP)
+6a<--EXPECTED
+01101010
+aa<--EXPECTED
+10101010
+I104.7: FAILURE (nan)
+way: []

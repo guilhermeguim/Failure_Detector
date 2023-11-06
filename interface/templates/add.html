@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Add New Area</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_add.css') }}">
+    
+    <h1>Add New Area</h1>
+
+    {% if error_message %}
+      <p>{{ error_message }}</p>
+    {% endif %}
+    
+    <form  method="post" class="row g-3 needs-validation" novalidate>
+
+      <div class="col-md-3">
+        <label for="inputName" class="form-label">Analysis Name:</label>
+        <input name="name" type="text" class="form-control" id="inputName" placeholder="Ex: Region_1" pattern="^[a-zA-Z0-9_-]+$" required />
+        <div id="nameHelp" class="form-text">Avoid Special Characters</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Do not use special characters</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputByteStart" class="form-label">Start Byte:</label>
+        <input name="start" type="text" class="form-control" id="inputByteStart" placeholder="Ex: 112" pattern="^[0-9]+$" required /> 
+        <div id="startHelp" class="form-text">Scanning starts at this byte</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-5">
+        <label for="inputWordSize" class="form-label">Word Size:</label>
+        <input name="size" type="text" class="form-control" id="inputWordSize" placeholder="Ex: 2 (Reads bytes 112 and 113)" pattern="^[0-9]+$" required />
+        <div id="sizeHelp" class="form-text">Size of the word to be scanned</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="inputType" class="form-label">Work Complete Type:</label>
+        <select name="type" id="inputType" class="form-select" required />
+          <option value="input">Input Byte</option>
+          <option value="memory">Memory Address</option>
+          <option value="memory_alternative" >Alternative Memory Address</option>
+        </select>
+        <div id="typeHelp" class="form-text">Work Complete Type</div>
+      </div>
+      <div class="col-md-8">
+        <label for="inputSilent" class="form-label">Bits to Silent</label>
+        <input name="silent" type="text" class="form-control" id="inputSilent" placeholder="Ex: 112.5,113.1,113.7" pattern="^\s*\d+\.[0-7](,\s*\d+\.[0-7])*(\s*,\s*\d+\.[0-7])*,?\s*$">
+        <div id="silentHelp" class="form-text">Bits to eliminate from analysis, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 112.5, 113.1, 113.7</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputWCByte" class="form-label">Work Complete Byte:</label>
+        <input name="wcbyte" type="text" class="form-control" id="inputWCByte" placeholder="Ex: 113" pattern="^[0-9]+$" required />
+        <div id="WCByteHelp" class="form-text">Byte where Work Complete is located</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputWCPos" class="form-label">Work Complete Bit:</label>
+        <input name="wcpos" type="text" class="form-control" id="inputWCPos" placeholder="Ex: 5" pattern="^[0-9]+$" required />
+        <div id="WCPosHelp" class="form-text">Bit to consider as Work Complete (Ex: 113.5)</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-12">
+        <input type="submit" class="btn btn-primary" value="Submit">
+      </div>
+    </form>
+      
+    <script src="{{ url_for('static', filename='js/validation.js') }}"></script>
+    {% endblock %}
+  </body>
+</html>

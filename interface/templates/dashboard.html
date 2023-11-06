@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_dash.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/plotly.js') }}" charset="UTF-8"></script>
+
+    <h1>Dashboard</h1>
+
+    <p>Failure Count by Class - Last 24 hours</p>
+    <div id="graph1"></div>
+    <script>
+        // Parse the graph JSON passed from Flask
+        var graphJSON = {{ graph_json1|safe }};
+
+        // Render the graph using Plotly
+        Plotly.newPlot('graph1', graphJSON.data, graphJSON.layout);
+    </script>
+
+    <p>Failure Count by Equipment - Last 24 hours</p>
+    <div id="chart-container" style="width: 700px; overflow: auto;">
+      <div id="graph2"></div>
+      <script>
+          // Parse the graph JSON passed from Flask
+          var graphJSON = {{ graph_json2|safe }};
+
+          // Render the graph using Plotly
+          Plotly.newPlot('graph2', graphJSON.data, graphJSON.layout);
+      </script>
+    </div>
+    
+    <p>Failure Count by Class - Last 15 days</p>
+    <div id="graph3"></div>
+    <script>
+        // Parse the graph JSON passed from Flask
+        var graphJSON = {{ graph_json3|safe }};
+
+        // Render the graph using Plotly
+        Plotly.newPlot('graph3', graphJSON.data, graphJSON.layout);
+    </script>
+
+    <p>Failure Count by Equipment - Last 15 days</p>
+    <div id="graph4"></div>
+    <script>
+        // Parse the graph JSON passed from Flask
+        var graphJSON = {{ graph_json4|safe }};
+
+        // Render the graph using Plotly
+        Plotly.newPlot('graph4', graphJSON.data, graphJSON.layout);
+    </script>
+
+
+    {% endblock %}
+  </body>
+</html>

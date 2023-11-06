@@ -1,0 +1,39 @@
+
+
+#############################
+date and time = 2023-03-02 21:47:10
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'5a': 5346, '26': 7, '4a': 12, '22': 4, 'a6': 2, '1a': 1}
+last state: None
+state_list: ['5a', '26', '4a', '22', 'a6', '1a']
+similar_list: [12, 5, 9, 6, 8, 13]
+score_list: [5370, 17, 30, 16, 18, 27]
+dict_word_score: {'5a': 5370, '4a': 30, '1a': 27, 'a6': 18, '26': 17, '22': 16}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+5a<--EXPECTED
+01011010
+-----------------------------------------
+I102.7: FAILURE (EXHAUST MASKING ADV)
+I102.6: FAILURE (EXHAUST MASKING RET)
+RECOMMENDED TO CHECK: 
+4a<--EXPECTED
+01001010
+I102.4: FAILURE (OIL FILLER CAP OIL PAN ADV)
+1a<--EXPECTED
+00011010
+a6<--EXPECTED
+10100110
+I102.5: FAILURE (OIL FILLER CAP OIL PAN RET)
+I102.3: FAILURE (OIL FILLER CAP MASKING UP)
+I102.2: FAILURE (OIL FILLER CAP MASKING DOWN)
+26<--EXPECTED
+00100110
+22<--EXPECTED
+00100010
+way: []

@@ -1,0 +1,45 @@
+
+
+#############################
+date and time = 2023-03-06 09:59:17
+54 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'ea': 221, 'c0': 181, 'e0': 129, 'c4': 3, 'd4': 125, 'd0': 199, 'c2': 4, 'd2': 1}
+last state: e2
+state_list: ['ea', 'c0', 'e0', 'c4', 'd4', 'd0', 'c2', 'd2']
+similar_list: [4, 7, 6, 10, 13, 10, 6, 9]
+score_list: [229, 195, 141, 23, 151, 219, 16, 19]
+dict_word_score: {'ea': 229, 'd0': 219, 'c0': 195, 'd4': 151, 'e0': 141, 'c4': 23, 'd2': 19, 'c2': 16}
+
+--------FAILURE--------
+54<--FOUND
+01010100
+ea<--EXPECTED
+11101010
+-----------------------------------------
+I106.7: FAILURE (TEST CONV PALLET DETECT#1 IN)
+I106.5: FAILURE (POSITION PIN #2 DOWN)
+I106.4: FAILURE (POSITION PIN #2 UP)
+I106.3: FAILURE (POSITION PIN #1 DOWN)
+I106.2: FAILURE (POSITION PIN #1 UP)
+I106.1: FAILURE (ANTIBACK DOWN)
+RECOMMENDED TO CHECK: 
+e2<--EXPECTED
+11100010
+d0<--EXPECTED
+11010000
+c0<--EXPECTED
+11000000
+d4<--EXPECTED
+11010100
+e0<--EXPECTED
+11100000
+c4<--EXPECTED
+11000100
+d2<--EXPECTED
+11010010
+c2<--EXPECTED
+11000010
+way: ['55', 'd5', 'd4', 'c0', 'ea', 'e2']

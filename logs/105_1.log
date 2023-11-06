@@ -1,0 +1,78 @@
+
+
+#############################
+date and time = 2023-07-04 21:34:22
+b <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['a']
+
+#############################
+date and time = 2023-07-05 18:42:07
+b <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['a']
+
+#############################
+date and time = 2023-07-18 12:01:10
+b <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['a']
+
+#############################
+date and time = 2023-07-18 14:36:25
+b <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['a']
+
+#############################
+date and time = 2023-07-18 15:37:44
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a': 4495, 'b': 2276}
+last state: None
+state_list: ['a', 'b']
+similar_list: [0.75, 0.625]
+score_list: [2.1638605818933687, 1.5861394181066313]
+dict_word_score: {'a': 2.1638605818933687, 'b': 1.5861394181066313}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+a<--EXPECTED
+00001010
+-----------------------------------------
+I105.3: FAILURE (CALIBRATION PIN DETECT)
+I105.1: FAILURE (Docking Detect Sensor)
+RECOMMENDED TO CHECK: 
+b<--EXPECTED
+00001011
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: []
+
+#############################
+date and time = 2023-07-18 15:38:48
+b <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+a<--EXPECTED
+00001010
+I105.0: FAILURE (DRIVE LINE WORK DETECT)
+way: ['a']

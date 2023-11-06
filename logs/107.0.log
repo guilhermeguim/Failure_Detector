@@ -1,0 +1,156 @@
+
+
+#############################
+date and time = 2023-03-02 15:22:08
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'6': 1, '4': 8, '0': 1}
+last state: 7
+state_list: ['6', '4', '0']
+similar_list: [8, 9, 6]
+score_list: [17, 26, 13]
+dict_word_score: {'4': 26, '6': 17, '0': 13}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+4<--EXPECTED
+00000100
+-----------------------------------------
+I107.0: FAILURE (TEST CONV PALLET DETECT#LOW SPD)
+RECOMMENDED TO CHECK: 
+7<--EXPECTED
+00000111
+I107.1: FAILURE (TEST CONV PALLET DETECT#2 OUT)
+6<--EXPECTED
+00000110
+0<--EXPECTED
+00000000
+I107.2: FAILURE (Shuttle Work Detect(Fault))
+way: ['7']
+
+#############################
+date and time = 2023-03-03 06:36:09
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'6': 1, '4': 8, '0': 1}
+last state: 7
+state_list: ['6', '4', '0']
+similar_list: [8, 9, 6]
+score_list: [17, 26, 13]
+dict_word_score: {'4': 26, '6': 17, '0': 13}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+4<--EXPECTED
+00000100
+-----------------------------------------
+I107.0: FAILURE (TEST CONV PALLET DETECT#LOW SPD)
+RECOMMENDED TO CHECK: 
+7<--EXPECTED
+00000111
+I107.1: FAILURE (TEST CONV PALLET DETECT#2 OUT)
+6<--EXPECTED
+00000110
+0<--EXPECTED
+00000000
+I107.2: FAILURE (Shuttle Work Detect(Fault))
+way: ['7']
+
+#############################
+date and time = 2023-03-03 16:44:54
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'0': 1484, '3': 259, '4': 1}
+last state: 1
+state_list: ['0', '3', '4']
+similar_list: [6, 8, 9]
+score_list: [1496, 275, 19]
+dict_word_score: {'0': 1496, '3': 275, '4': 19}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+0<--EXPECTED
+00000000
+-----------------------------------------
+I107.2: FAILURE (Shuttle Work Detect(Fault))
+I107.0: FAILURE (TEST CONV PALLET DETECT#LOW SPD)
+RECOMMENDED TO CHECK: 
+1<--EXPECTED
+00000001
+3<--EXPECTED
+00000011
+I107.1: FAILURE (TEST CONV PALLET DETECT#2 OUT)
+4<--EXPECTED
+00000100
+way: ['3', '1']
+
+#############################
+date and time = 2023-03-03 19:28:02
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'0': 1484, '3': 259, '4': 1}
+last state: 1
+state_list: ['0', '3', '4']
+similar_list: [6, 8, 9]
+score_list: [1496, 275, 19]
+dict_word_score: {'0': 1496, '3': 275, '4': 19}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+0<--EXPECTED
+00000000
+-----------------------------------------
+I107.2: FAILURE (Shuttle Work Detect(Fault))
+I107.0: FAILURE (TEST CONV PALLET DETECT#LOW SPD)
+RECOMMENDED TO CHECK: 
+1<--EXPECTED
+00000001
+3<--EXPECTED
+00000011
+I107.1: FAILURE (TEST CONV PALLET DETECT#2 OUT)
+4<--EXPECTED
+00000100
+way: ['3', '1']
+
+#############################
+date and time = 2023-03-03 22:20:50
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'0': 1484, '3': 259, '4': 1}
+last state: 1
+state_list: ['0', '3', '4']
+similar_list: [6, 8, 9]
+score_list: [1496, 275, 19]
+dict_word_score: {'0': 1496, '3': 275, '4': 19}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+0<--EXPECTED
+00000000
+-----------------------------------------
+I107.2: FAILURE (Shuttle Work Detect(Fault))
+I107.0: FAILURE (TEST CONV PALLET DETECT#LOW SPD)
+RECOMMENDED TO CHECK: 
+1<--EXPECTED
+00000001
+3<--EXPECTED
+00000011
+I107.1: FAILURE (TEST CONV PALLET DETECT#2 OUT)
+4<--EXPECTED
+00000100
+way: ['3', '1']

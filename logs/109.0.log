@@ -1,0 +1,56 @@
+
+
+#############################
+date and time = 2023-03-02 20:07:14
+6d <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'4f': 339, '2f': 6}
+last state: 6f
+state_list: ['4f', '2f']
+similar_list: [14, 14]
+score_list: [367, 34]
+dict_word_score: {'4f': 367, '2f': 34}
+
+--------FAILURE--------
+6d<--FOUND
+01101101
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.5: FAILURE (SHUTTLE #2 PALLET PASS [PH])
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+RECOMMENDED TO CHECK: 
+6f<--EXPECTED
+01101111
+2f<--EXPECTED
+00101111
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+way: ['4f', 'f', '6f']
+
+#############################
+date and time = 2023-03-03 22:20:54
+c <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'2c': 2}
+last state: 2e
+state_list: ['2c']
+similar_list: [11]
+score_list: [24]
+dict_word_score: {'2c': 24}
+
+--------FAILURE--------
+c<--FOUND
+00001100
+2c<--EXPECTED
+00101100
+-----------------------------------------
+I109.5: FAILURE (SHUTTLE #2 PALLET PASS [PH])
+RECOMMENDED TO CHECK: 
+2e<--EXPECTED
+00101110
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+way: ['4f', 'f', '4f', '6f', '2f', '2e']

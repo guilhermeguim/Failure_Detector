@@ -1,0 +1,81 @@
+
+
+#############################
+date and time = 2023-03-02 21:47:10
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 2882, '26': 1786, '14': 6, '16': 584, '12': 92, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [2896, 1808, 22, 606, 108, 20, 18]
+dict_word_score: {'1a': 2896, '26': 1808, '16': 606, '12': 108, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-06 08:46:07
+25 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 2882, '26': 1786, '14': 6, '16': 584, '12': 92, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [2, 10, 7, 6, 3, 10, 11]
+score_list: [2886, 1806, 20, 596, 98, 26, 24]
+dict_word_score: {'1a': 2886, '26': 1806, '16': 596, '12': 98, '15': 26, '5': 24, '14': 20}
+
+--------FAILURE--------
+25<--FOUND
+00100101
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.5: FAILURE (HEAD STOCK #1RET)
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+I103.1: FAILURE (LH VIBRATION RET)
+I103.0: FAILURE (LH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+15<--EXPECTED
+00010101
+5<--EXPECTED
+00000101
+14<--EXPECTED
+00010100
+way: []

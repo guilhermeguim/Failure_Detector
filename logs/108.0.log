@@ -1,0 +1,158 @@
+
+
+#############################
+date and time = 2023-03-01 14:46:10
+a5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b1': 781, '85': 4}
+last state: b5
+state_list: ['b1', '85']
+similar_list: [12, 13]
+score_list: [805, 30]
+dict_word_score: {'b1': 805, '85': 30}
+
+--------FAILURE--------
+a5<--FOUND
+10100101
+b1<--EXPECTED
+10110001
+-----------------------------------------
+I108.4: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#1)
+I108.2: FAILURE (SHUTTLE #2 PALLET ARRIVE)
+RECOMMENDED TO CHECK: 
+b5<--EXPECTED
+10110101
+85<--EXPECTED
+10000101
+I108.5: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#2)
+way: ['31', 'b1', 'b5']
+
+#############################
+date and time = 2023-03-02 21:54:28
+a5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b1': 880, '85': 4}
+last state: b5
+state_list: ['b1', '85']
+similar_list: [12, 13]
+score_list: [904, 30]
+dict_word_score: {'b1': 904, '85': 30}
+
+--------FAILURE--------
+a5<--FOUND
+10100101
+b1<--EXPECTED
+10110001
+-----------------------------------------
+I108.4: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#1)
+I108.2: FAILURE (SHUTTLE #2 PALLET ARRIVE)
+RECOMMENDED TO CHECK: 
+b5<--EXPECTED
+10110101
+85<--EXPECTED
+10000101
+I108.5: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#2)
+way: ['31', 'b1', 'b5']
+
+#############################
+date and time = 2023-03-03 14:29:35
+f5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b1': 880, '85': 4}
+last state: b5
+state_list: ['b1', '85']
+similar_list: [14, 11]
+score_list: [908, 26]
+dict_word_score: {'b1': 908, '85': 26}
+
+--------FAILURE--------
+f5<--FOUND
+11110101
+b1<--EXPECTED
+10110001
+-----------------------------------------
+I108.6: FAILURE (SHUTTLE #1 PALLET ARRIVE)
+I108.2: FAILURE (SHUTTLE #2 PALLET ARRIVE)
+RECOMMENDED TO CHECK: 
+b5<--EXPECTED
+10110101
+85<--EXPECTED
+10000101
+I108.5: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#2)
+I108.4: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#1)
+way: ['31', 'b1', 'b5']
+
+#############################
+date and time = 2023-03-04 01:38:53
+a5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'b1': 880, '85': 4}
+last state: b5
+state_list: ['b1', '85']
+similar_list: [12, 13]
+score_list: [904, 30]
+dict_word_score: {'b1': 904, '85': 30}
+
+--------FAILURE--------
+a5<--FOUND
+10100101
+b1<--EXPECTED
+10110001
+-----------------------------------------
+I108.4: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#1)
+I108.2: FAILURE (SHUTTLE #2 PALLET ARRIVE)
+RECOMMENDED TO CHECK: 
+b5<--EXPECTED
+10110101
+85<--EXPECTED
+10000101
+I108.5: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#2)
+way: ['31', 'b1', 'b5']
+
+#############################
+date and time = 2023-03-06 02:34:33
+5 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'75': 16, '35': 141, '65': 18, '45': 53, 'e5': 1, '25': 13, 'b5': 44}
+last state: c5
+state_list: ['75', '35', '65', '45', 'e5', '25', 'b5']
+similar_list: [9, 10, 10, 11, 9, 11, 9]
+score_list: [34, 161, 38, 75, 19, 35, 62]
+dict_word_score: {'35': 161, '45': 75, 'b5': 62, '65': 38, '25': 35, '75': 34, 'e5': 19}
+
+--------FAILURE--------
+5<--FOUND
+00000101
+35<--EXPECTED
+00110101
+-----------------------------------------
+I108.5: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#2)
+I108.4: FAILURE (SHUTTLE #2 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c5<--EXPECTED
+11000101
+I108.7: FAILURE (SHUTTLE #1 PALLET PASS)
+I108.6: FAILURE (SHUTTLE #1 PALLET ARRIVE)
+45<--EXPECTED
+01000101
+b5<--EXPECTED
+10110101
+65<--EXPECTED
+01100101
+25<--EXPECTED
+00100101
+75<--EXPECTED
+01110101
+e5<--EXPECTED
+11100101
+way: ['2', 'a', 'e', '6', '46', '44', '45', 'c5']

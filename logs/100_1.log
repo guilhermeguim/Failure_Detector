@@ -1,0 +1,2008 @@
+
+
+#############################
+date and time = 2023-03-14 13:39:11
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1142, 'd6': 48, '82': 69}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [10, 12, 11]
+score_list: [1162, 72, 91]
+dict_word_score: {'86': 1162, '82': 91, 'd6': 72}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '96']
+
+#############################
+date and time = 2023-03-17 11:59:51
+80 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1210, 'd6': 51, '82': 126}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [8, 6, 9]
+score_list: [1226, 63, 144]
+dict_word_score: {'86': 1226, '82': 144, 'd6': 63}
+
+--------FAILURE--------
+80<--FOUND
+10000000
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+I100.4: FAILURE (OPS MASKING ADV)
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '96']
+
+#############################
+date and time = 2023-03-24 08:27:18
+84 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1210, 'd6': 51, '82': 126}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [11, 9, 8]
+score_list: [1232, 69, 142]
+dict_word_score: {'86': 1232, '82': 142, 'd6': 69}
+
+--------FAILURE--------
+84<--FOUND
+10000100
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+I100.4: FAILURE (OPS MASKING ADV)
+82<--EXPECTED
+10000010
+I100.2: FAILURE (RH VIBRATION ADV)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '96']
+
+#############################
+date and time = 2023-04-03 18:25:07
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1245, 'd6': 54, '82': 193}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [0.75, 0.75, 0.875]
+score_list: [2.334450402144772, 1.5361930294906165, 1.8793565683646112]
+dict_word_score: {'86': 2.334450402144772, '82': 1.8793565683646112, 'd6': 1.5361930294906165}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96']
+
+#############################
+date and time = 2023-04-05 23:42:52
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1245, 'd6': 54, '82': 193}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [0.75, 0.75, 0.875]
+score_list: [2.334450402144772, 1.5361930294906165, 1.8793565683646112]
+dict_word_score: {'86': 2.334450402144772, '82': 1.8793565683646112, 'd6': 1.5361930294906165}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96']
+
+#############################
+date and time = 2023-04-06 11:44:50
+a2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 1980, '80': 1, '84': 1}
+last state: 86
+state_list: ['82', '80', '84']
+similar_list: [0.875, 0.75, 0.625]
+score_list: [2.7489909182643792, 1.5005045408678104, 1.2505045408678104]
+dict_word_score: {'82': 2.7489909182643792, '80': 1.5005045408678104, '84': 1.2505045408678104}
+
+--------FAILURE--------
+a2<--FOUND
+10100010
+82<--EXPECTED
+10000010
+-----------------------------------------
+I100.5: FAILURE (OPS MASKING RET)
+RECOMMENDED TO CHECK: 
+86<--EXPECTED
+10000110
+I100.2: FAILURE (RH VIBRATION ADV)
+80<--EXPECTED
+10000000
+I100.1: FAILURE (INTAKE MASKING ADV)
+84<--EXPECTED
+10000100
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '86']
+
+#############################
+date and time = 2023-04-13 21:04:18
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1286, 'd6': 54, '82': 194}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [0.75, 0.75, 0.875]
+score_list: [2.3383311603650587, 1.5352020860495437, 1.8764667535853976]
+dict_word_score: {'86': 2.3383311603650587, '82': 1.8764667535853976, 'd6': 1.5352020860495437}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96']
+
+#############################
+date and time = 2023-04-16 15:33:50
+a6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2264, '82': 52, 'aa': 3, 'a8': 23}
+last state: a2
+state_list: ['a0', '82', 'aa', 'a8']
+similar_list: [0.75, 0.75, 0.75, 0.625]
+score_list: [2.4666951323654995, 1.522203245089667, 1.5012809564474807, 1.2598206660973528]
+dict_word_score: {'a0': 2.4666951323654995, '82': 1.522203245089667, 'aa': 1.5012809564474807, 'a8': 1.2598206660973528}
+
+--------FAILURE--------
+a6<--FOUND
+10100110
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+aa<--EXPECTED
+10101010
+I100.3: FAILURE (RH VIBRATION RET)
+a8<--EXPECTED
+10101000
+way: ['a9', 'a8', 'aa', 'a2']
+
+#############################
+date and time = 2023-04-17 15:40:15
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'86': 1322, 'd6': 55, '82': 194}
+last state: 96
+state_list: ['86', 'd6', '82']
+similar_list: [0.75, 0.75, 0.875]
+score_list: [2.341502227880331, 1.5350095480585615, 1.8734882240611075]
+dict_word_score: {'86': 2.341502227880331, '82': 1.8734882240611075, 'd6': 1.5350095480585615}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+96<--EXPECTED
+10010110
+82<--EXPECTED
+10000010
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96']
+
+#############################
+date and time = 2023-04-19 05:13:10
+88 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 1}
+last state: 80
+state_list: ['a0']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'a0': 2.5}
+
+--------FAILURE--------
+88<--FOUND
+10001000
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.5: FAILURE (OPS MASKING RET)
+I100.3: FAILURE (RH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+80<--EXPECTED
+10000000
+way: ['a9', 'a8', 'aa', '82', 'd6', '56', 'd6', '86', '82', '80']
+
+#############################
+date and time = 2023-04-19 05:18:25
+88 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 1}
+last state: 80
+state_list: ['a0']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'a0': 2.5}
+
+--------FAILURE--------
+88<--FOUND
+10001000
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.5: FAILURE (OPS MASKING RET)
+I100.3: FAILURE (RH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+80<--EXPECTED
+10000000
+way: ['a9', 'a8', 'aa', '8a', '82', '96', 'd6', '56', 'd6', '86', '82', '80']
+
+#############################
+date and time = 2023-05-11 04:22:33
+88 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 1}
+last state: 80
+state_list: ['a0']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'a0': 2.5}
+
+--------FAILURE--------
+88<--FOUND
+10001000
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.5: FAILURE (OPS MASKING RET)
+I100.3: FAILURE (RH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+80<--EXPECTED
+10000000
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '86', '82', '80']
+
+#############################
+date and time = 2023-05-24 02:14:49
+29 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a9': 3186, 'aa': 9, 'a8': 16, '8a': 1, '82': 3}
+last state: None
+state_list: ['a9', 'aa', 'a8', '8a', '82']
+similar_list: [0.875, 0.625, 0.75, 0.5, 0.375]
+score_list: [2.740979782270607, 1.2527993779160187, 1.5049766718506998, 1.0003110419906687, 0.7509331259720062]
+dict_word_score: {'a9': 2.740979782270607, 'a8': 1.5049766718506998, 'aa': 1.2527993779160187, '8a': 1.0003110419906687, '82': 0.7509331259720062}
+
+--------FAILURE--------
+29<--FOUND
+00101001
+a9<--EXPECTED
+10101001
+-----------------------------------------
+I100.7: FAILURE (ODT CYLINDER RET)
+RECOMMENDED TO CHECK: 
+a8<--EXPECTED
+10101000
+I100.0: FAILURE (INTAKE MASKING RET)
+aa<--EXPECTED
+10101010
+I100.1: FAILURE (INTAKE MASKING ADV)
+8a<--EXPECTED
+10001010
+I100.5: FAILURE (OPS MASKING RET)
+82<--EXPECTED
+10000010
+I100.3: FAILURE (RH VIBRATION RET)
+way: []
+
+#############################
+date and time = 2023-05-26 01:47:12
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 1365, 'a2': 1367}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.2496339677891655, 1.7503660322108345]
+dict_word_score: {'92': 2.2496339677891655, 'a2': 1.7503660322108345}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-05-29 05:02:02
+a8 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 1390}
+last state: a2
+state_list: ['a0']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'a0': 2.75}
+
+--------FAILURE--------
+a8<--FOUND
+10101000
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+I100.1: FAILURE (INTAKE MASKING ADV)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '86', '82', 'a2']
+
+#############################
+date and time = 2023-05-29 10:09:58
+a8 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 1390}
+last state: a2
+state_list: ['a0']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'a0': 2.75}
+
+--------FAILURE--------
+a8<--FOUND
+10101000
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+I100.1: FAILURE (INTAKE MASKING ADV)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '86', '82', 'a2']
+
+#############################
+date and time = 2023-05-30 13:36:21
+a2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'8a': 674, '82': 716}
+last state: aa
+state_list: ['8a', '82']
+similar_list: [0.75, 0.875]
+score_list: [1.9848920863309352, 2.265107913669065]
+dict_word_score: {'82': 2.265107913669065, '8a': 1.9848920863309352}
+
+--------FAILURE--------
+a2<--FOUND
+10100010
+82<--EXPECTED
+10000010
+-----------------------------------------
+
+#############################
+date and time = 2023-05-30 13:47:52
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'d6': 737, 'd2': 657}
+last state: 92
+state_list: ['d6', 'd2']
+similar_list: [0.875, 0.75]
+score_list: [2.278694404591105, 1.9713055954088952]
+dict_word_score: {'d6': 2.278694404591105, 'd2': 1.9713055954088952}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+d6<--EXPECTED
+11010110
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I100.2: FAILURE (RH VIBRATION ADV)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82', '92']
+
+#############################
+date and time = 2023-05-30 13:58:53
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'d6': 737, 'd2': 657}
+last state: 92
+state_list: ['d6', 'd2']
+similar_list: [0.875, 0.75]
+score_list: [2.278694404591105, 1.9713055954088952]
+dict_word_score: {'d6': 2.278694404591105, 'd2': 1.9713055954088952}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+d6<--EXPECTED
+11010110
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I100.2: FAILURE (RH VIBRATION ADV)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82', '92']
+
+#############################
+date and time = 2023-05-30 14:46:22
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'d6': 737, 'd2': 657}
+last state: 92
+state_list: ['d6', 'd2']
+similar_list: [0.875, 0.75]
+score_list: [2.278694404591105, 1.9713055954088952]
+dict_word_score: {'d6': 2.278694404591105, 'd2': 1.9713055954088952}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+d6<--EXPECTED
+11010110
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I100.2: FAILURE (RH VIBRATION ADV)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82', '92']
+
+#############################
+date and time = 2023-05-31 13:03:10
+80 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 1642, 'a2': 1645}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.75, 0.75]
+score_list: [1.999543656829936, 2.0004563431700637]
+dict_word_score: {'a2': 2.0004563431700637, '92': 1.999543656829936}
+
+--------FAILURE--------
+80<--FOUND
+10000000
+a2<--EXPECTED
+10100010
+-----------------------------------------
+I100.5: FAILURE (OPS MASKING RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+92<--EXPECTED
+10010010
+I100.4: FAILURE (OPS MASKING ADV)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '82']
+
+#############################
+date and time = 2023-05-31 13:21:25
+29 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a9': 4889, 'aa': 9, 'a8': 16, '8a': 1, '82': 3, '56': 3}
+last state: None
+state_list: ['a9', 'aa', 'a8', '8a', '82', '56']
+similar_list: [0.875, 0.625, 0.75, 0.5, 0.375, 0.125]
+score_list: [2.7434972566551514, 1.2518288965657387, 1.5032513716724243, 1.0002032107295264, 0.7506096321885796, 0.25060963218857957]
+dict_word_score: {'a9': 2.7434972566551514, 'a8': 1.5032513716724243, 'aa': 1.2518288965657387, '8a': 1.0002032107295264, '82': 0.7506096321885796, '56': 0.25060963218857957}
+
+--------FAILURE--------
+29<--FOUND
+00101001
+a9<--EXPECTED
+10101001
+-----------------------------------------
+I100.7: FAILURE (ODT CYLINDER RET)
+RECOMMENDED TO CHECK: 
+a8<--EXPECTED
+10101000
+I100.0: FAILURE (INTAKE MASKING RET)
+aa<--EXPECTED
+10101010
+I100.1: FAILURE (INTAKE MASKING ADV)
+8a<--EXPECTED
+10001010
+I100.5: FAILURE (OPS MASKING RET)
+82<--EXPECTED
+10000010
+I100.3: FAILURE (RH VIBRATION RET)
+56<--EXPECTED
+01010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+I100.2: FAILURE (RH VIBRATION ADV)
+way: []
+
+#############################
+date and time = 2023-06-06 19:08:31
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 1707, '96': 928, '86': 788}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4986853637160387, 1.771107215892492, 1.9802074203914695]
+dict_word_score: {'86': 1.9802074203914695, '96': 1.771107215892492, '56': 1.4986853637160387}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-06-12 13:30:28
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 1747, '96': 944, '86': 813}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4985730593607305, 1.769406392694064, 1.9820205479452055]
+dict_word_score: {'86': 1.9820205479452055, '96': 1.769406392694064, '56': 1.4985730593607305}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-06-12 18:31:52
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 1747, '96': 944, '86': 813}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4985730593607305, 1.769406392694064, 1.9820205479452055]
+dict_word_score: {'86': 1.9820205479452055, '96': 1.769406392694064, '56': 1.4985730593607305}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-06-12 20:36:43
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 1747, '96': 944, '86': 813}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4985730593607305, 1.769406392694064, 1.9820205479452055]
+dict_word_score: {'86': 1.9820205479452055, '96': 1.769406392694064, '56': 1.4985730593607305}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-06-14 00:00:23
+d6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 1763, 'a2': 1773}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.75, 0.5]
+score_list: [1.9985859728506787, 1.5014140271493213]
+dict_word_score: {'92': 1.9985859728506787, 'a2': 1.5014140271493213}
+
+--------FAILURE--------
+d6<--FOUND
+11010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-06-17 05:32:36
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 1817, 'a2': 1830}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.2482177131889225, 1.7517822868110775]
+dict_word_score: {'92': 2.2482177131889225, 'a2': 1.7517822868110775}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-06-30 16:57:07
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 1999, '96': 1084, '86': 939}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.497016409746395, 1.7695176529090004, 1.9834659373446046]
+dict_word_score: {'86': 1.9834659373446046, '96': 1.7695176529090004, '56': 1.497016409746395}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-03 17:53:03
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2019, '96': 1097, '86': 948}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4968011811023623, 1.7699311023622046, 1.983267716535433]
+dict_word_score: {'86': 1.983267716535433, '96': 1.7699311023622046, '56': 1.4968011811023623}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-03 23:36:35
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2020, 'a2': 2046}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.2468027545499263, 1.7531972454500737]
+dict_word_score: {'92': 2.2468027545499263, 'a2': 1.7531972454500737}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-04 19:06:15
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2033, 'a2': 2059}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.246823069403715, 1.7531769305962854]
+dict_word_score: {'92': 2.246823069403715, 'a2': 1.7531769305962854}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-05 13:59:38
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2054, '96': 1113, '86': 967}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4968553459119498, 1.7692307692307692, 1.983913884857281]
+dict_word_score: {'86': 1.983913884857281, '96': 1.7692307692307692, '56': 1.4968553459119498}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-06 12:58:54
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2070, '96': 1119, '86': 977}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4968795007201152, 1.7686029764762363, 1.9845175228036487]
+dict_word_score: {'86': 1.9845175228036487, '96': 1.7686029764762363, '56': 1.4968795007201152}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-06 14:55:10
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2070, '96': 1119, '86': 977}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4968795007201152, 1.7686029764762363, 1.9845175228036487]
+dict_word_score: {'86': 1.9845175228036487, '96': 1.7686029764762363, '56': 1.4968795007201152}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-06 17:28:30
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2070, 'a2': 2097}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.2467602591792657, 1.7532397408207343]
+dict_word_score: {'92': 2.2467602591792657, 'a2': 1.7532397408207343}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-06 19:00:30
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2093, 'a8': 4, '82': 11}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4928842504743836, 1.7518975332068312, 1.5052182163187855]
+dict_word_score: {'a0': 2.4928842504743836, 'a8': 1.7518975332068312, '82': 1.5052182163187855}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '86', '82', 'a2']
+
+#############################
+date and time = 2023-07-06 19:30:34
+d6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2070, 'a2': 2097}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.75, 0.5]
+score_list: [1.9967602591792657, 1.5032397408207343]
+dict_word_score: {'92': 1.9967602591792657, 'a2': 1.5032397408207343}
+
+--------FAILURE--------
+d6<--FOUND
+11010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-07 00:19:03
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2093, 'a8': 4, '82': 11}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4928842504743836, 1.7518975332068312, 1.5052182163187855]
+dict_word_score: {'a0': 2.4928842504743836, 'a8': 1.7518975332068312, '82': 1.5052182163187855}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '86', '82', 'a2']
+
+#############################
+date and time = 2023-07-07 00:32:03
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2070, '96': 1119, '86': 977}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4968795007201152, 1.7686029764762363, 1.9845175228036487]
+dict_word_score: {'86': 1.9845175228036487, '96': 1.7686029764762363, '56': 1.4968795007201152}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-07 13:13:45
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2081, '96': 1124, '86': 984}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4967772738123657, 1.7683217951778467, 1.9849009310097876]
+dict_word_score: {'86': 1.9849009310097876, '96': 1.7683217951778467, '56': 1.4967772738123657}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-07 15:08:34
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2081, '96': 1124, '86': 984}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4967772738123657, 1.7683217951778467, 1.9849009310097876]
+dict_word_score: {'86': 1.9849009310097876, '96': 1.7683217951778467, '56': 1.4967772738123657}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-08 05:40:33
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2101, 'a8': 8, '82': 13}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4901036757775685, 1.753770028275212, 1.5061262959472197]
+dict_word_score: {'a0': 2.4901036757775685, 'a8': 1.753770028275212, '82': 1.5061262959472197}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', '96', 'd6', '96', '82', 'a2']
+
+#############################
+date and time = 2023-07-08 06:22:49
+d6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2080, 'a2': 2109}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.75, 0.5]
+score_list: [1.9965385533540223, 1.5034614466459777]
+dict_word_score: {'92': 1.9965385533540223, 'a2': 1.5034614466459777}
+
+--------FAILURE--------
+d6<--FOUND
+11010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', 'a2', '82']
+
+#############################
+date and time = 2023-07-10 01:33:22
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2096, '96': 1131, '86': 992}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.496800189618393, 1.768073003081299, 1.985126807300308]
+dict_word_score: {'86': 1.985126807300308, '96': 1.768073003081299, '56': 1.496800189618393}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-10 01:43:10
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2116, 'a8': 8, '82': 13}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4901731399157696, 1.7537435657463734, 1.5060832943378568]
+dict_word_score: {'a0': 2.4901731399157696, 'a8': 1.7537435657463734, '82': 1.5060832943378568}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6', '96', '86', '82', 'a2']
+
+#############################
+date and time = 2023-07-11 13:49:50
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2122, 'a2': 2153}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.875, 0.625]
+score_list: [2.246374269005848, 1.753625730994152]
+dict_word_score: {'92': 2.246374269005848, 'a2': 1.753625730994152}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '8a', '82']
+
+#############################
+date and time = 2023-07-13 13:15:07
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2158, '96': 1155, '86': 1032}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.496662830840046, 1.7658227848101267, 1.9875143843498273]
+dict_word_score: {'86': 1.9875143843498273, '96': 1.7658227848101267, '56': 1.496662830840046}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-14 01:12:52
+d6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2155, 'a2': 2188}
+last state: 82
+state_list: ['92', 'a2']
+similar_list: [0.75, 0.5]
+score_list: [1.9962007828689845, 1.5037992171310153]
+dict_word_score: {'92': 1.9962007828689845, 'a2': 1.5037992171310153}
+
+--------FAILURE--------
+d6<--FOUND
+11010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-14 12:18:46
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2180, '96': 1165, '86': 1045}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4965831435079726, 1.7653758542141231, 1.9880410022779043]
+dict_word_score: {'86': 1.9880410022779043, '96': 1.7653758542141231, '56': 1.4965831435079726}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', '82', '92', '96', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-15 04:41:53
+82 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'56': 2180, '96': 1165, '86': 1045}
+last state: d6
+state_list: ['56', '96', '86']
+similar_list: [0.5, 0.75, 0.875]
+score_list: [1.4965831435079726, 1.7653758542141231, 1.9880410022779043]
+dict_word_score: {'86': 1.9880410022779043, '96': 1.7653758542141231, '56': 1.4965831435079726}
+
+--------FAILURE--------
+82<--FOUND
+10000010
+86<--EXPECTED
+10000110
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+I100.4: FAILURE (OPS MASKING ADV)
+96<--EXPECTED
+10010110
+56<--EXPECTED
+01010110
+I100.7: FAILURE (ODT CYLINDER RET)
+way: ['a9', 'a8', 'aa', 'a2', '82', '92', '96', 'd6', '56', 'd6']
+
+#############################
+date and time = 2023-07-18 15:21:44
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2241, 'a8': 11, '82': 19}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4867899603698813, 1.7548436811977102, 1.5083663584324087]
+dict_word_score: {'a0': 2.4867899603698813, 'a8': 1.7548436811977102, '82': 1.5083663584324087}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '86', '82', 'a2']
+
+#############################
+date and time = 2023-07-18 15:34:06
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2241, 'a8': 11, '82': 19}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4867899603698813, 1.7548436811977102, 1.5083663584324087]
+dict_word_score: {'a0': 2.4867899603698813, 'a8': 1.7548436811977102, '82': 1.5083663584324087}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '96', '82', 'a2']
+
+#############################
+date and time = 2023-07-18 15:39:24
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a0': 2241, 'a8': 11, '82': 19}
+last state: a2
+state_list: ['a0', 'a8', '82']
+similar_list: [0.75, 0.875, 0.75]
+score_list: [2.4867899603698813, 1.7548436811977102, 1.5083663584324087]
+dict_word_score: {'a0': 2.4867899603698813, 'a8': 1.7548436811977102, '82': 1.5083663584324087}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a0<--EXPECTED
+10100000
+-----------------------------------------
+I100.3: FAILURE (RH VIBRATION RET)
+I100.1: FAILURE (INTAKE MASKING ADV)
+RECOMMENDED TO CHECK: 
+a2<--EXPECTED
+10100010
+a8<--EXPECTED
+10101000
+82<--EXPECTED
+10000010
+I100.5: FAILURE (OPS MASKING RET)
+way: ['a9', 'a8', 'aa', '82', '92', 'd6', '96', '86', '82', 'a2']
+
+#############################
+date and time = 2023-07-18 19:29:44
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '8a', '82']
+
+#############################
+date and time = 2023-07-18 21:19:09
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-18 23:54:35
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-19 07:08:43
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '8a', '82']
+
+#############################
+date and time = 2023-07-19 07:13:57
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-07-19 08:57:11
+d2 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2212, 'a2': 2252, 'd6': 1}
+last state: 82
+state_list: ['92', 'a2', 'd6']
+similar_list: [0.875, 0.625, 0.875]
+score_list: [2.2454087346024636, 1.7543673012318028, 1.7502239641657336]
+dict_word_score: {'92': 2.2454087346024636, 'a2': 1.7543673012318028, 'd6': 1.7502239641657336}
+
+--------FAILURE--------
+d2<--FOUND
+11010010
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.2: FAILURE (RH VIBRATION ADV)
+way: ['a9', 'a8', 'aa', '8a', '82']
+
+#############################
+date and time = 2023-08-09 19:36:55
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2277, 'a2': 2324, 'd6': 1, 'd2': 3}
+last state: 82
+state_list: ['92', 'a2', 'd6', 'd2']
+similar_list: [0.875, 0.625, 0.875, 0.75]
+score_list: [2.2444625407166123, 1.754668838219327, 1.7502171552660153, 1.5006514657980456]
+dict_word_score: {'92': 2.2444625407166123, 'a2': 1.754668838219327, 'd6': 1.7502171552660153, 'd2': 1.5006514657980456}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-08-10 03:09:50
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2277, 'a2': 2324, 'd6': 1, 'd2': 3}
+last state: 82
+state_list: ['92', 'a2', 'd6', 'd2']
+similar_list: [0.875, 0.625, 0.875, 0.75]
+score_list: [2.2444625407166123, 1.754668838219327, 1.7502171552660153, 1.5006514657980456]
+dict_word_score: {'92': 2.2444625407166123, 'a2': 1.754668838219327, 'd6': 1.7502171552660153, 'd2': 1.5006514657980456}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-08-11 04:31:00
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2302, 'a2': 2352, 'd6': 1, 'd2': 3}
+last state: 82
+state_list: ['92', 'a2', 'd6', 'd2']
+similar_list: [0.875, 0.625, 0.875, 0.75]
+score_list: [2.2442035208243882, 1.7549377415199656, 1.7502146844139115, 1.5006440532417347]
+dict_word_score: {'92': 2.2442035208243882, 'a2': 1.7549377415199656, 'd6': 1.7502146844139115, 'd2': 1.5006440532417347}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-08-12 04:13:24
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2318, 'a2': 2369, 'd6': 1, 'd2': 3}
+last state: 82
+state_list: ['92', 'a2', 'd6', 'd2']
+similar_list: [0.875, 0.625, 0.875, 0.75]
+score_list: [2.244137710509486, 1.7550095928373481, 1.7502131741632914, 1.5006395224898743]
+dict_word_score: {'92': 2.244137710509486, 'a2': 1.7550095928373481, 'd6': 1.7502131741632914, 'd2': 1.5006395224898743}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', '82']
+
+#############################
+date and time = 2023-08-14 06:48:58
+96 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 2329, 'a2': 2381, 'd6': 1, 'd2': 3}
+last state: 82
+state_list: ['92', 'a2', 'd6', 'd2']
+similar_list: [0.875, 0.625, 0.875, 0.75]
+score_list: [2.2440602460755197, 1.7550912176495546, 1.7502121340687313, 1.5006364022061942]
+dict_word_score: {'92': 2.2440602460755197, 'a2': 1.7550912176495546, 'd6': 1.7502121340687313, 'd2': 1.5006364022061942}
+
+--------FAILURE--------
+96<--FOUND
+10010110
+92<--EXPECTED
+10010010
+-----------------------------------------
+I100.2: FAILURE (RH VIBRATION ADV)
+RECOMMENDED TO CHECK: 
+82<--EXPECTED
+10000010
+I100.4: FAILURE (OPS MASKING ADV)
+a2<--EXPECTED
+10100010
+I100.5: FAILURE (OPS MASKING RET)
+d6<--EXPECTED
+11010110
+I100.6: FAILURE (OPS MASKING DOCKING OK)
+d2<--EXPECTED
+11010010
+way: ['a9', 'a8', 'aa', 'a2', '82']

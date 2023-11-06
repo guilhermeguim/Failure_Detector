@@ -1,0 +1,97 @@
+
+
+#############################
+date and time = 2023-03-02 22:10:33
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 375, 'c': 659, '4f': 675, 'f': 302}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [395, 681, 699, 328]
+dict_word_score: {'4f': 699, 'c': 681, '1c': 395, 'f': 328}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-03-03 14:39:36
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 375, 'c': 659, '4f': 675, 'f': 302}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [395, 681, 699, 328]
+dict_word_score: {'4f': 699, 'c': 681, '1c': 395, 'f': 328}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []
+
+#############################
+date and time = 2023-03-04 01:48:01
+e <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1c': 375, 'c': 659, '4f': 675, 'f': 302}
+last state: None
+state_list: ['1c', 'c', '4f', 'f']
+similar_list: [10, 11, 12, 13]
+score_list: [395, 681, 699, 328]
+dict_word_score: {'4f': 699, 'c': 681, '1c': 395, 'f': 328}
+
+--------FAILURE--------
+e<--FOUND
+00001110
+4f<--EXPECTED
+01001111
+-----------------------------------------
+I109.6: FAILURE (SHUTTLE #1 WORK DETECT [PH])
+I109.0: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#1)
+RECOMMENDED TO CHECK: 
+c<--EXPECTED
+00001100
+I109.1: FAILURE (SHUTTLE #1 PALLET POSITION DETECT#2)
+1c<--EXPECTED
+00011100
+I109.4: FAILURE (SHUTTLE #2 WORK DETECT [PH])
+f<--EXPECTED
+00001111
+way: []

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add New Area</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_add.css') }}">
+
+    <div class="row justify-content-md">
+        <div class="col-auto">
+            <h1 class='title'>Editing</h1>
+        </div>
+    
+        <div class="col-auto ms-auto align-items-center return-btn">
+            <a href="/edit">
+                <i class='bx bxs-chevron-left bx-lg'></i>
+            </a>
+        </div>
+    </div>
+    
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+      {% endif %}
+    
+    <form  method="post" class="row g-3 needs-validation" novalidate>
+
+      <div class="col-md-3">
+        <label for="inputName" class="form-label">Analysis Name:</label>
+        <input value={{ record[4] }} name="name" type="text" class="form-control" id="inputName" pattern="^[a-zA-Z0-9_-]+$" required />
+        <div id="nameHelp" class="form-text">Avoid Special Characters</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Do not use special characters</div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputByteStart" class="form-label">Start Byte:</label>
+        <input value={{ record[2] }} name="start" type="text" class="form-control" id="inputByteStart" pattern="^[0-9]+$" required /> 
+        <div id="startHelp" class="form-text">Scanning starts at this byte</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-5">
+        <label for="inputWordSize" class="form-label">Word Size:</label>
+        <input  value={{ record[3] }} name="size" type="text" class="form-control" id="inputWordSize" pattern="^[0-9]+$" required />
+        <div id="sizeHelp" class="form-text">Size of the word to be scanned</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="inputType" class="form-label">Work Complete Type:</label>
+        <select name="type" id="inputType" class="form-select" required>
+          <option value="input" {% if record[5] == 'input' %}selected{% endif %}>Input Byte</option>
+          <option value="memory" {% if record[5] == 'memory' %}selected{% endif %}>Memory Address</option>
+          <option value="memory_alternative" {% if record[5] == 'memory_alternative' %}selected{% endif %}>Alternative Memory Address</option>
+        </select>
+        <div id="typeHelp" class="form-text">Work Complete Type</div>
+      </div>
+      
+      <div class="col-md-8">
+        <label for="inputSilent" class="form-label">Bits to Silent</label>
+        <input value="{% if record[1] == 'null' %}{% else %}{{ record[1] }}{% endif %}" name="silent" type="text" class="form-control" id="inputSilent" pattern="^\s*\d+\.[0-7](,\s*\d+\.[0-7])*(\s*,\s*\d+\.[0-7])*,?\s*$"><div id="silentHelp" class="form-text">Bits to eliminate from analysis, separated with comma</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Invalid format, suggested: 112.5, 113.1, 113.7</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputWCByte" class="form-label">Work Complete Byte:</label>
+        <input value={{ record[8] }} name="wcbyte" type="text" class="form-control" id="inputWCByte" pattern="^[0-9]+$" required />
+        <div id="WCByteHelp" class="form-text">Byte where Work Complete is located</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+      <div class="col-md-6">
+        <label for="inputWCPos" class="form-label">Work Complete Bit:</label>
+        <input value={{ record[6] }} name="wcpos" type="text" class="form-control" id="inputWCPos" pattern="^[0-9]+$" required />
+        <div id="WCPosHelp" class="form-text">Bit to consider as Work Complete (Ex: 113.5)</div>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Provide a valid number</div>
+      </div>
+
+      <div class="col-12">
+        <input type="submit" class="btn btn-primary" value="Save">
+      </div>
+    </form>
+      
+    <script src="{{ url_for('static', filename='js/validation.js') }}"></script>
+    {% endblock %}
+  </body>
+</html>

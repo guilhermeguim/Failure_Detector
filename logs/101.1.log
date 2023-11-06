@@ -1,0 +1,195 @@
+
+
+#############################
+date and time = 2023-03-02 11:42:43
+52 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1}
+last state: 56
+state_list: ['12']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'12': 23}
+
+--------FAILURE--------
+52<--FOUND
+01010010
+12<--EXPECTED
+00010010
+-----------------------------------------
+I101.6: FAILURE (OCV IN 2ND ADV)
+RECOMMENDED TO CHECK: 
+56<--EXPECTED
+01010110
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '80', '95', '55', '54', '56']
+
+#############################
+date and time = 2023-03-02 16:34:45
+52 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1}
+last state: 56
+state_list: ['12']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'12': 23}
+
+--------FAILURE--------
+52<--FOUND
+01010010
+12<--EXPECTED
+00010010
+-----------------------------------------
+I101.6: FAILURE (OCV IN 2ND ADV)
+RECOMMENDED TO CHECK: 
+56<--EXPECTED
+01010110
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '80', '84', '95', '15', '55', '54', '56']
+
+#############################
+date and time = 2023-03-02 21:45:50
+52 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1}
+last state: 56
+state_list: ['12']
+similar_list: [11]
+score_list: [23]
+dict_word_score: {'12': 23}
+
+--------FAILURE--------
+52<--FOUND
+01010010
+12<--EXPECTED
+00010010
+-----------------------------------------
+I101.6: FAILURE (OCV IN 2ND ADV)
+RECOMMENDED TO CHECK: 
+56<--EXPECTED
+01010110
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '88', '80', '94', '95', '55', '54', '56']
+
+#############################
+date and time = 2023-03-04 04:28:32
+91 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 362, '95': 40}
+last state: 90
+state_list: ['92', '95']
+similar_list: [10, 13]
+score_list: [382, 66]
+dict_word_score: {'92': 382, '95': 66}
+
+--------FAILURE--------
+91<--FOUND
+10010001
+92<--EXPECTED
+10010010
+-----------------------------------------
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+90<--EXPECTED
+10010000
+95<--EXPECTED
+10010101
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '88', '80', '90']
+
+#############################
+date and time = 2023-03-06 01:21:57
+91 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 362, '95': 40}
+last state: 90
+state_list: ['92', '95']
+similar_list: [10, 13]
+score_list: [382, 66]
+dict_word_score: {'92': 382, '95': 66}
+
+--------FAILURE--------
+91<--FOUND
+10010001
+92<--EXPECTED
+10010010
+-----------------------------------------
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+90<--EXPECTED
+10010000
+95<--EXPECTED
+10010101
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '88', '80', '90']
+
+#############################
+date and time = 2023-03-06 05:41:47
+91 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 362, '95': 40}
+last state: 90
+state_list: ['92', '95']
+similar_list: [10, 13]
+score_list: [382, 66]
+dict_word_score: {'92': 382, '95': 66}
+
+--------FAILURE--------
+91<--FOUND
+10010001
+92<--EXPECTED
+10010010
+-----------------------------------------
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+90<--EXPECTED
+10010000
+95<--EXPECTED
+10010101
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '88', '80', '90']
+
+#############################
+date and time = 2023-03-06 05:53:10
+91 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'92': 362, '95': 40}
+last state: 90
+state_list: ['92', '95']
+similar_list: [10, 13]
+score_list: [382, 66]
+dict_word_score: {'92': 382, '95': 66}
+
+--------FAILURE--------
+91<--FOUND
+10010001
+92<--EXPECTED
+10010010
+-----------------------------------------
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+90<--EXPECTED
+10010000
+95<--EXPECTED
+10010101
+I101.2: FAILURE (CMP IN ADV)
+way: ['aa', '8a', '88', '80', '90']

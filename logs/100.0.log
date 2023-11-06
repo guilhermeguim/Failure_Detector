@@ -1,0 +1,75 @@
+
+
+#############################
+date and time = 2023-03-02 11:43:27
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a9': 5354, '80': 9, '86': 2, '84': 2, 'a8': 1, '82': 1}
+last state: None
+state_list: ['a9', '80', '86', '84', 'a8', '82']
+similar_list: [12, 7, 9, 6, 13, 10]
+score_list: [5378, 23, 20, 14, 27, 21]
+dict_word_score: {'a9': 5378, 'a8': 27, '80': 23, '82': 21, '86': 20, '84': 14}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a9<--EXPECTED
+10101001
+-----------------------------------------
+I100.1: FAILURE (INTAKE MASKING ADV)
+I100.0: FAILURE (INTAKE MASKING RET)
+RECOMMENDED TO CHECK: 
+a8<--EXPECTED
+10101000
+80<--EXPECTED
+10000000
+I100.5: FAILURE (OPS MASKING RET)
+I100.3: FAILURE (RH VIBRATION RET)
+82<--EXPECTED
+10000010
+86<--EXPECTED
+10000110
+I100.2: FAILURE (RH VIBRATION ADV)
+84<--EXPECTED
+10000100
+way: []
+
+#############################
+date and time = 2023-03-02 21:47:10
+aa <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'a9': 5354, '80': 9, '86': 2, '84': 2, 'a8': 1, '82': 1}
+last state: None
+state_list: ['a9', '80', '86', '84', 'a8', '82']
+similar_list: [12, 7, 9, 6, 13, 10]
+score_list: [5378, 23, 20, 14, 27, 21]
+dict_word_score: {'a9': 5378, 'a8': 27, '80': 23, '82': 21, '86': 20, '84': 14}
+
+--------FAILURE--------
+aa<--FOUND
+10101010
+a9<--EXPECTED
+10101001
+-----------------------------------------
+I100.1: FAILURE (INTAKE MASKING ADV)
+I100.0: FAILURE (INTAKE MASKING RET)
+RECOMMENDED TO CHECK: 
+a8<--EXPECTED
+10101000
+80<--EXPECTED
+10000000
+I100.5: FAILURE (OPS MASKING RET)
+I100.3: FAILURE (RH VIBRATION RET)
+82<--EXPECTED
+10000010
+86<--EXPECTED
+10000110
+I100.2: FAILURE (RH VIBRATION ADV)
+84<--EXPECTED
+10000100
+way: []

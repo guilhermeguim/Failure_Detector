@@ -1,0 +1,764 @@
+
+
+#############################
+date and time = 2023-03-23 19:01:04
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 5648, '19': 176, '29': 214}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [5674, 196, 234]
+dict_word_score: {'39': 5674, '29': 234, '19': 196}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-03-27 08:49:42
+1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [7, 8, 8]
+score_list: [6190, 197, 231]
+dict_word_score: {'39': 6190, '29': 231, '19': 197}
+
+--------FAILURE--------
+1<--FOUND
+00000001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+19<--EXPECTED
+00011001
+way: []
+
+#############################
+date and time = 2023-03-27 08:50:06
+1 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [7, 8, 8]
+score_list: [6190, 197, 231]
+dict_word_score: {'39': 6190, '29': 231, '19': 197}
+
+--------FAILURE--------
+1<--FOUND
+00000001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+19<--EXPECTED
+00011001
+way: []
+
+#############################
+date and time = 2023-03-27 09:06:21
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [6202, 201, 235]
+dict_word_score: {'39': 6202, '29': 235, '19': 201}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-03-27 09:08:02
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [6202, 201, 235]
+dict_word_score: {'39': 6202, '29': 235, '19': 201}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-03-28 10:50:23
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [6202, 201, 235]
+dict_word_score: {'39': 6202, '29': 235, '19': 201}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-03-28 10:50:34
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [6202, 201, 235]
+dict_word_score: {'39': 6202, '29': 235, '19': 201}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-03-28 10:52:16
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6176, '19': 181, '29': 215}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [13, 10, 10]
+score_list: [6202, 201, 235]
+dict_word_score: {'39': 6202, '29': 235, '19': 201}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-05 01:48:41
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 980, '29': 963}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0043746783324754, 1.9956253216675244]
+dict_word_score: {'19': 2.0043746783324754, '29': 1.9956253216675244}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-05 10:25:59
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6269, '19': 183, '29': 217}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.6900209926525713, 1.5274403958614484, 1.5325386114859798]
+dict_word_score: {'39': 2.6900209926525713, '29': 1.5325386114859798, '19': 1.5274403958614484}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-06 07:40:11
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 980, '29': 963}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0043746783324754, 1.9956253216675244]
+dict_word_score: {'19': 2.0043746783324754, '29': 1.9956253216675244}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-06 15:17:48
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 987, '29': 969}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.004601226993865, 1.9953987730061349]
+dict_word_score: {'19': 2.004601226993865, '29': 1.9953987730061349}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-06 15:18:06
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6305, '19': 183, '29': 217}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.6903430275913496, 1.5272930648769576, 1.5323639075316928]
+dict_word_score: {'39': 2.6903430275913496, '29': 1.5323639075316928, '19': 1.5272930648769576}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-14 16:27:09
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 1010, '29': 996}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0034895314057826, 1.9965104685942174]
+dict_word_score: {'19': 2.0034895314057826, '29': 1.9965104685942174}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-14 16:27:48
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6454, '19': 186, '29': 220}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.690816326530612, 1.5271137026239068, 1.532069970845481]
+dict_word_score: {'39': 2.690816326530612, '29': 1.532069970845481, '19': 1.5271137026239068}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-14 16:37:08
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 1010, '29': 996}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0034895314057826, 1.9965104685942174]
+dict_word_score: {'19': 2.0034895314057826, '29': 1.9965104685942174}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-14 16:37:57
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6454, '19': 186, '29': 220}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.690816326530612, 1.5271137026239068, 1.532069970845481]
+dict_word_score: {'39': 2.690816326530612, '29': 1.532069970845481, '19': 1.5271137026239068}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-14 19:48:24
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 1010, '29': 996}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0034895314057826, 1.9965104685942174]
+dict_word_score: {'19': 2.0034895314057826, '29': 1.9965104685942174}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-04-14 19:48:43
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6454, '19': 186, '29': 220}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.690816326530612, 1.5271137026239068, 1.532069970845481]
+dict_word_score: {'39': 2.690816326530612, '29': 1.532069970845481, '19': 1.5271137026239068}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-04-28 15:49:52
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6851, '19': 193, '29': 223}
+last state: None
+state_list: ['39', '19', '29']
+similar_list: [0.875, 0.75, 0.75]
+score_list: [2.6927549194991056, 1.526558414751617, 1.5306866657492775]
+dict_word_score: {'39': 2.6927549194991056, '29': 1.5306866657492775, '19': 1.526558414751617}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+way: []
+
+#############################
+date and time = 2023-05-04 00:09:43
+31 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'19': 1093, '29': 1080}
+last state: 39
+state_list: ['19', '29']
+similar_list: [0.75, 0.75]
+score_list: [2.0029912563276575, 1.9970087436723425]
+dict_word_score: {'19': 2.0029912563276575, '29': 1.9970087436723425}
+
+--------FAILURE--------
+31<--FOUND
+00110001
+19<--EXPECTED
+00011001
+-----------------------------------------
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+way: ['39']
+
+#############################
+date and time = 2023-05-26 08:31:20
+3b <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 4051, '19': 64, '29': 9, '31': 2}
+last state: None
+state_list: ['39', '19', '29', '31']
+similar_list: [0.875, 0.75, 0.75, 0.75]
+score_list: [2.7318225884634026, 1.5155113911778963, 1.5021812893843918, 1.5004847309743092]
+dict_word_score: {'39': 2.7318225884634026, '19': 1.5155113911778963, '29': 1.5021812893843918, '31': 1.5004847309743092}
+
+--------FAILURE--------
+3b<--FOUND
+00111011
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.1: FAILURE ([INT-Fr.ROBOT] Fault)
+RECOMMENDED TO CHECK: 
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+31<--EXPECTED
+00110001
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+way: []
+
+#############################
+date and time = 2023-06-27 07:58:01
+3b <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'29': 1046, '19': 947, '31': 2}
+last state: 39
+state_list: ['29', '19', '31']
+similar_list: [0.75, 0.75, 0.75]
+score_list: [2.0243107769423556, 1.97468671679198, 1.5010025062656642]
+dict_word_score: {'29': 2.0243107769423556, '19': 1.97468671679198, '31': 1.5010025062656642}
+
+--------FAILURE--------
+3b<--FOUND
+00111011
+29<--EXPECTED
+00101001
+-----------------------------------------
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+I1100.1: FAILURE ([INT-Fr.ROBOT] Fault)
+RECOMMENDED TO CHECK: 
+39<--EXPECTED
+00111001
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+31<--EXPECTED
+00110001
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+way: ['39']
+
+#############################
+date and time = 2023-06-27 07:58:59
+3b <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 5739, '19': 98, '29': 12, '31': 2}
+last state: None
+state_list: ['39', '19', '29', '31']
+similar_list: [0.875, 0.75, 0.75, 0.75]
+score_list: [2.730857972996069, 1.5167492736284396, 1.5020509314647068, 1.5003418219107845]
+dict_word_score: {'39': 2.730857972996069, '19': 1.5167492736284396, '29': 1.5020509314647068, '31': 1.5003418219107845}
+
+--------FAILURE--------
+3b<--FOUND
+00111011
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.1: FAILURE ([INT-Fr.ROBOT] Fault)
+RECOMMENDED TO CHECK: 
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+29<--EXPECTED
+00101001
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+31<--EXPECTED
+00110001
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+way: []
+
+#############################
+date and time = 2023-07-16 15:59:41
+2b <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 1169}
+last state: 29
+state_list: ['39']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'39': 2.5}
+
+--------FAILURE--------
+2b<--FOUND
+00101011
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+I1100.1: FAILURE ([INT-Fr.ROBOT] Fault)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+way: ['39', '29']
+
+#############################
+date and time = 2023-07-16 16:01:05
+2b <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'39': 6545, '19': 110, '29': 12, '31': 2}
+last state: None
+state_list: ['39', '19', '29', '31']
+similar_list: [0.75, 0.625, 0.875, 0.625]
+score_list: [2.4814065077222973, 1.2664942270205428, 1.7517993702204229, 1.2502998950367372]
+dict_word_score: {'39': 2.4814065077222973, '29': 1.7517993702204229, '19': 1.2664942270205428, '31': 1.2502998950367372}
+
+--------FAILURE--------
+2b<--FOUND
+00101011
+39<--EXPECTED
+00111001
+-----------------------------------------
+I1100.4: FAILURE ([INT-Fr.ROBOT] 1st NONINTERFERENCE(║╥░ú╝╖))
+I1100.1: FAILURE ([INT-Fr.ROBOT] Fault)
+RECOMMENDED TO CHECK: 
+29<--EXPECTED
+00101001
+19<--EXPECTED
+00011001
+I1100.5: FAILURE ([INT-Fr.ROBOT] 2nd NONINTERFERENCE(║╥░ú╝╖))
+31<--EXPECTED
+00110001
+I1100.3: FAILURE ([INT-Fr.ROBOT] AUTO)
+way: []

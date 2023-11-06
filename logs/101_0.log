@@ -1,0 +1,2109 @@
+
+
+#############################
+date and time = 2023-03-14 23:06:11
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 5348, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [5364, 23, 25]
+dict_word_score: {'aa': 5364, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-15 13:36:24
+95 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 5348, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [4, 13, 8]
+score_list: [5356, 39, 17]
+dict_word_score: {'aa': 5356, '94': 39, '9a': 17}
+
+--------FAILURE--------
+95<--FOUND
+10010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-20 22:31:23
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [6061, 23, 25]
+dict_word_score: {'aa': 6061, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-21 12:59:25
+1a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [9, 6, 13]
+score_list: [6063, 25, 27]
+dict_word_score: {'aa': 6063, '9a': 27, '94': 25}
+
+--------FAILURE--------
+1a<--FOUND
+00011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-22 14:58:21
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [6061, 23, 25]
+dict_word_score: {'aa': 6061, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-22 15:12:49
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '96', '92']
+
+#############################
+date and time = 2023-03-22 15:37:33
+55 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0, 9, 4]
+score_list: [6045, 31, 9]
+dict_word_score: {'aa': 6045, '94': 31, '9a': 9}
+
+--------FAILURE--------
+55<--FOUND
+01010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-22 16:46:00
+18 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [6, 7, 10]
+score_list: [6057, 27, 21]
+dict_word_score: {'aa': 6057, '94': 27, '9a': 21}
+
+--------FAILURE--------
+18<--FOUND
+00011000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-22 17:19:43
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [6061, 23, 25]
+dict_word_score: {'aa': 6061, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-22 18:48:31
+55 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0, 9, 4]
+score_list: [6045, 31, 9]
+dict_word_score: {'aa': 6045, '94': 31, '9a': 9}
+
+--------FAILURE--------
+55<--FOUND
+01010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-22 19:00:10
+a2 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.3: FAILURE (CMP IN RET)
+way: ['aa']
+
+#############################
+date and time = 2023-03-22 19:23:32
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '92']
+
+#############################
+date and time = 2023-03-22 19:35:30
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-22 19:48:50
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 00:43:24
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 00:49:55
+95 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [4, 13, 8]
+score_list: [6053, 39, 17]
+dict_word_score: {'aa': 6053, '94': 39, '9a': 17}
+
+--------FAILURE--------
+95<--FOUND
+10010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 02:12:19
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 02:14:23
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 02:40:07
+55 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0, 9, 4]
+score_list: [6045, 31, 9]
+dict_word_score: {'aa': 6045, '94': 31, '9a': 9}
+
+--------FAILURE--------
+55<--FOUND
+01010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 15:53:42
+55 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0, 9, 4]
+score_list: [6045, 31, 9]
+dict_word_score: {'aa': 6045, '94': 31, '9a': 9}
+
+--------FAILURE--------
+55<--FOUND
+01010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 16:14:14
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 16:30:16
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [6061, 23, 25]
+dict_word_score: {'aa': 6061, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-23 16:47:26
+54 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [1, 10, 5]
+score_list: [6047, 33, 11]
+dict_word_score: {'aa': 6047, '94': 33, '9a': 11}
+
+--------FAILURE--------
+54<--FOUND
+01010100
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 17:02:20
+54 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [1, 10, 5]
+score_list: [6047, 33, 11]
+dict_word_score: {'aa': 6047, '94': 33, '9a': 11}
+
+--------FAILURE--------
+54<--FOUND
+01010100
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 17:50:09
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 18:06:51
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 18:39:56
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 18:58:47
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 19:17:31
+18 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [6, 7, 10]
+score_list: [6057, 27, 21]
+dict_word_score: {'aa': 6057, '94': 27, '9a': 21}
+
+--------FAILURE--------
+18<--FOUND
+00011000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 19:29:43
+55 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0, 9, 4]
+score_list: [6045, 31, 9]
+dict_word_score: {'aa': 6045, '94': 31, '9a': 9}
+
+--------FAILURE--------
+55<--FOUND
+01010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-23 19:42:46
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-23 21:47:00
+1a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [9, 6, 13]
+score_list: [6063, 25, 27]
+dict_word_score: {'aa': 6063, '9a': 27, '94': 25}
+
+--------FAILURE--------
+1a<--FOUND
+00011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-24 06:08:25
+1a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6045, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [9, 6, 13]
+score_list: [6063, 25, 27]
+dict_word_score: {'aa': 6063, '9a': 27, '94': 25}
+
+--------FAILURE--------
+1a<--FOUND
+00011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-24 08:27:20
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 10:28:57
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 12:08:44
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 13:15:36
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 22:29:48
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 23:04:37
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-27 23:43:57
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [8, 5, 12]
+score_list: [6597, 23, 25]
+dict_word_score: {'aa': 6597, '9a': 25, '94': 23}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-28 02:06:09
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-28 02:29:28
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-28 13:07:57
+1a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [9, 6, 13]
+score_list: [6599, 25, 27]
+dict_word_score: {'aa': 6599, '9a': 27, '94': 25}
+
+--------FAILURE--------
+1a<--FOUND
+00011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-28 13:21:30
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-29 01:32:44
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [10, 13]
+score_list: [25, 31]
+dict_word_score: {'8a': 31, '82': 25}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-03-29 10:23:08
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.375, 0.75]
+score_list: [1.997877179681577, 0.7519711902956785, 1.5001516300227444]
+dict_word_score: {'aa': 1.997877179681577, '9a': 1.5001516300227444, '94': 0.7519711902956785}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-29 15:28:18
+90 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.875, 0.75]
+score_list: [1.997877179681577, 1.7519711902956785, 1.5001516300227444]
+dict_word_score: {'aa': 1.997877179681577, '94': 1.7519711902956785, '9a': 1.5001516300227444}
+
+--------FAILURE--------
+90<--FOUND
+10010000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-29 21:38:29
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.375, 0.75]
+score_list: [1.997877179681577, 0.7519711902956785, 1.5001516300227444]
+dict_word_score: {'aa': 1.997877179681577, '9a': 1.5001516300227444, '94': 0.7519711902956785}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-29 22:22:09
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.375, 0.75]
+score_list: [1.997877179681577, 0.7519711902956785, 1.5001516300227444]
+dict_word_score: {'aa': 1.997877179681577, '9a': 1.5001516300227444, '94': 0.7519711902956785}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-29 23:02:38
+1a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.625, 0.5, 0.875]
+score_list: [2.247877179681577, 1.0019711902956785, 1.7501516300227444]
+dict_word_score: {'aa': 2.247877179681577, '9a': 1.7501516300227444, '94': 1.0019711902956785}
+
+--------FAILURE--------
+1a<--FOUND
+00011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-03-30 00:05:49
+54 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6581, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.125, 0.75, 0.375]
+score_list: [1.247877179681577, 1.5019711902956785, 0.7501516300227445]
+dict_word_score: {'94': 1.5019711902956785, 'aa': 1.247877179681577, '9a': 0.7501516300227445}
+
+--------FAILURE--------
+54<--FOUND
+01010100
+94<--EXPECTED
+10010100
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-03-30 01:26:20
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-13 13:16:34
+90 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6834, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.875, 0.75]
+score_list: [1.9979556074766354, 1.7518983644859814, 1.5001460280373833]
+dict_word_score: {'aa': 1.9979556074766354, '94': 1.7518983644859814, '9a': 1.5001460280373833}
+
+--------FAILURE--------
+90<--FOUND
+10010000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-04-13 15:24:02
+5a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6840, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.375, 0.75]
+score_list: [1.9979573971403561, 0.7518967026553837, 1.5001459002042603]
+dict_word_score: {'aa': 1.9979573971403561, '9a': 1.5001459002042603, '94': 0.7518967026553837}
+
+--------FAILURE--------
+5a<--FOUND
+01011010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.6: FAILURE (OCV IN 2ND ADV)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-04-13 17:55:19
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '92']
+
+#############################
+date and time = 2023-04-13 17:56:43
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '92']
+
+#############################
+date and time = 2023-04-13 23:38:19
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-14 01:51:29
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '92']
+
+#############################
+date and time = 2023-04-14 04:38:26
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-14 05:57:40
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-14 09:35:07
+90 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6840, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.875, 0.75]
+score_list: [1.9979573971403561, 1.7518967026553838, 1.5001459002042603]
+dict_word_score: {'aa': 1.9979573971403561, '94': 1.7518967026553838, '9a': 1.5001459002042603}
+
+--------FAILURE--------
+90<--FOUND
+10010000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-04-15 02:07:40
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '92']
+
+#############################
+date and time = 2023-04-16 15:09:32
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-16 15:12:28
+92 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6896, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.625, 0.75, 0.875]
+score_list: [2.2479739507959478, 1.5018813314037627, 1.7501447178002894]
+dict_word_score: {'aa': 2.2479739507959478, '9a': 1.7501447178002894, '94': 1.5018813314037627}
+
+--------FAILURE--------
+92<--FOUND
+10010010
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+RECOMMENDED TO CHECK: 
+9a<--EXPECTED
+10011010
+94<--EXPECTED
+10010100
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: []
+
+#############################
+date and time = 2023-04-16 15:22:34
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-16 15:32:32
+9a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'82': 5, '8a': 5}
+last state: 92
+state_list: ['82', '8a']
+similar_list: [0.75, 0.875]
+score_list: [2.0, 2.25]
+dict_word_score: {'8a': 2.25, '82': 2.0}
+
+--------FAILURE--------
+9a<--FOUND
+10011010
+8a<--EXPECTED
+10001010
+-----------------------------------------
+I101.4: FAILURE (OCV IN 1ST DOWN)
+RECOMMENDED TO CHECK: 
+92<--EXPECTED
+10010010
+I101.3: FAILURE (CMP IN RET)
+82<--EXPECTED
+10000010
+way: ['94', '90', '92']
+
+#############################
+date and time = 2023-04-16 16:07:06
+90 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6896, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [0.5, 0.875, 0.75]
+score_list: [1.9979739507959478, 1.7518813314037627, 1.5001447178002894]
+dict_word_score: {'aa': 1.9979739507959478, '94': 1.7518813314037627, '9a': 1.5001447178002894}
+
+--------FAILURE--------
+90<--FOUND
+10010000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+I101.2: FAILURE (CMP IN ADV)
+9a<--EXPECTED
+10011010
+way: []
+
+#############################
+date and time = 2023-04-16 18:40:13
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']
+
+#############################
+date and time = 2023-04-16 18:44:52
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']
+
+#############################
+date and time = 2023-06-11 19:20:57
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']
+
+#############################
+date and time = 2023-06-11 20:44:27
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']
+
+#############################
+date and time = 2023-07-11 08:33:18
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 6298}
+last state: None
+state_list: ['aa']
+similar_list: [0.5]
+score_list: [2.0]
+dict_word_score: {'aa': 2.0}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+RECOMMENDED TO CHECK: 
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:12
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']
+
+#############################
+date and time = 2023-07-22 06:45:43
+0 <-- FAILURE DETECTED
+
+RECOMMENDED TO CHECK: 
+aa<--EXPECTED
+10101010
+I101.7: FAILURE (OCV IN 2ND RET)
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.3: FAILURE (CMP IN RET)
+I101.1: FAILURE (HEAD VIBRATION UP)
+way: ['aa']

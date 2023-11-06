@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Manual/Alarm History</title>
+  </head>
+  <body>
+    {% extends "index.html" %}
+    {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_manual_alarm_hist.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/manual_alarm_update.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/plotly.js') }}" charset="UTF-8"></script>
+
+    
+    <body onload="update_values('{{ today }}');">
+        <div class="row justify-content-md">
+            <div class="col-auto">
+                <h1 class='title'>Manual/Alarm History</h1>
+            </div>
+            <div class="col-auto ms-auto align-items-center" id='drop'>
+              <label for="class-dropdown" id="drop-menu">Date Filter:</label>
+              <div class="form-group d-inline-flex  col-auto">
+                <select class="form-select" aria-label="" id="class-dropdown">
+                  <option value="{{ today }}" selected>{{ today }}</option>
+                  {% for date in date_values%}
+                    <option value="{{ date }}">{{ date }}</option>
+                  {% endfor %}
+                </select>
+                <button class="btn btn-primary" id="filter-button" onclick="go_btn()">Go</button>
+              </div>
+            </div>
+
+            <div class="col-auto ms-auto align-items-center return-btn">
+                <a href="{{ url_for('history') }}">
+                    <i class='bx bxs-chevron-left bx-lg'></i>
+                </a>
+            </div>
+
+        </div>
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col-5">
+              <!-- Print Table from JS -->
+              <div style="width:100%;">
+                <p>
+                  <span id="result"> </span>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-7">
+              <div class="row">
+                <p>Alarm Count - Last 15 Days</p>
+                <div id="graph1"></div>
+                  <script>
+                      // Parse the graph JSON passed from Flask
+                      var graphJSON = {{ graph_json1|safe }};
+
+                      // Render the graph using Plotly
+                      Plotly.newPlot('graph1', graphJSON.data, graphJSON.layout,config = {displayModeBar: false,});
+                  </script>
+              </div>
+
+                <div class="row">
+                <p>Manual Count - Last 15 Days</p>
+                <div id="graph2"></div>
+                  <script>
+                      // Parse the graph JSON passed from Flask
+                      var graphJSON = {{ graph_json2|safe }};
+
+                      // Render the graph using Plotly
+                      Plotly.newPlot('graph2', graphJSON.data, graphJSON.layout,config = {displayModeBar: false,});
+                  </script>
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+      
+
+      
+
+    </body>
+
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,966 @@
+
+
+#############################
+date and time = 2023-03-15 12:04:21
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 2882, '26': 1786, '14': 6, '16': 584, '12': 92, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [2896, 1808, 22, 606, 108, 20, 18]
+dict_word_score: {'1a': 2896, '26': 1808, '16': 606, '12': 108, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-20 22:31:23
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-21 12:59:25
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-22 14:58:21
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-22 17:00:25
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-22 17:19:43
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-23 16:30:16
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-23 17:34:59
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-23 21:47:00
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-03-24 06:08:25
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3305, '26': 2017, '14': 6, '16': 619, '12': 100, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [7, 11, 8, 11, 8, 7, 8]
+score_list: [3319, 2039, 22, 641, 116, 20, 18]
+dict_word_score: {'1a': 3319, '26': 2039, '16': 641, '12': 116, '14': 22, '15': 20, '5': 18}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+15<--EXPECTED
+00010101
+I103.0: FAILURE (LH VIBRATION ADV)
+5<--EXPECTED
+00000101
+way: []
+
+#############################
+date and time = 2023-04-13 02:13:50
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'16': 1525, '1a': 782}
+last state: 12
+state_list: ['16', '1a']
+similar_list: [0.875, 0.625]
+score_list: [2.411031642826181, 1.588968357173819]
+dict_word_score: {'16': 2.411031642826181, '1a': 1.588968357173819}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+16<--EXPECTED
+00010110
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+RECOMMENDED TO CHECK: 
+12<--EXPECTED
+00010010
+I103.2: FAILURE (DRIVE LINE ADV)
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a', '12']
+
+#############################
+date and time = 2023-04-13 15:24:02
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3816, '26': 2281, '14': 6, '16': 622, '12': 106, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [0.625, 0.875, 0.75, 0.875, 0.75, 0.625, 0.75]
+score_list: [1.8079763123263635, 2.083528293610177, 1.5008773212457962, 1.8409489691475363, 1.5154993420090657, 1.2508773212457962, 1.5002924404152653]
+dict_word_score: {'26': 2.083528293610177, '16': 1.8409489691475363, '1a': 1.8079763123263635, '12': 1.5154993420090657, '14': 1.5008773212457962, '5': 1.5002924404152653, '15': 1.2508773212457962}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+26<--EXPECTED
+00100110
+-----------------------------------------
+I103.5: FAILURE (HEAD STOCK #1RET)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+I103.4: FAILURE (HEAD STOCK #1ADV)
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+5<--EXPECTED
+00000101
+I103.0: FAILURE (LH VIBRATION ADV)
+15<--EXPECTED
+00010101
+way: []
+
+#############################
+date and time = 2023-04-14 07:25:10
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3816, '26': 2281, '14': 6, '16': 622, '12': 106, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [0.625, 0.875, 0.75, 0.875, 0.75, 0.625, 0.75]
+score_list: [1.8079763123263635, 2.083528293610177, 1.5008773212457962, 1.8409489691475363, 1.5154993420090657, 1.2508773212457962, 1.5002924404152653]
+dict_word_score: {'26': 2.083528293610177, '16': 1.8409489691475363, '1a': 1.8079763123263635, '12': 1.5154993420090657, '14': 1.5008773212457962, '5': 1.5002924404152653, '15': 1.2508773212457962}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+26<--EXPECTED
+00100110
+-----------------------------------------
+I103.5: FAILURE (HEAD STOCK #1RET)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+I103.4: FAILURE (HEAD STOCK #1ADV)
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+5<--EXPECTED
+00000101
+I103.0: FAILURE (LH VIBRATION ADV)
+15<--EXPECTED
+00010101
+way: []
+
+#############################
+date and time = 2023-04-16 18:40:13
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 800, '1a': 1470, '6': 12, '2': 17}
+last state: 16
+state_list: ['12', '1a', '6', '2']
+similar_list: [0.75, 0.625, 0.75, 0.875]
+score_list: [1.8479773814702045, 1.8894084384515006, 1.5052196607220532, 1.757394519356242]
+dict_word_score: {'1a': 1.8894084384515006, '12': 1.8479773814702045, '2': 1.757394519356242, '6': 1.5052196607220532}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+2<--EXPECTED
+00000010
+6<--EXPECTED
+00000110
+way: ['16']
+
+#############################
+date and time = 2023-04-16 18:44:52
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 800, '1a': 1470, '6': 12, '2': 17}
+last state: 16
+state_list: ['12', '1a', '6', '2']
+similar_list: [0.75, 0.625, 0.75, 0.875]
+score_list: [1.8479773814702045, 1.8894084384515006, 1.5052196607220532, 1.757394519356242]
+dict_word_score: {'1a': 1.8894084384515006, '12': 1.8479773814702045, '2': 1.757394519356242, '6': 1.5052196607220532}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+2<--EXPECTED
+00000010
+6<--EXPECTED
+00000110
+way: ['16']
+
+#############################
+date and time = 2023-04-17 14:17:30
+a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 815, '1a': 1480, '6': 12, '2': 17}
+last state: 16
+state_list: ['12', '1a', '6', '2']
+similar_list: [0.75, 0.875, 0.75, 0.875]
+score_list: [1.8506884681583478, 2.3868330464716006, 1.5051635111876076, 1.757314974182444]
+dict_word_score: {'1a': 2.3868330464716006, '12': 1.8506884681583478, '2': 1.757314974182444, '6': 1.5051635111876076}
+
+--------FAILURE--------
+a<--FOUND
+00001010
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+2<--EXPECTED
+00000010
+6<--EXPECTED
+00000110
+way: ['16']
+
+#############################
+date and time = 2023-04-17 14:21:48
+a <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 3897, '26': 2321, '14': 6, '16': 622, '12': 106, '15': 6, '5': 2}
+last state: None
+state_list: ['1a', '26', '14', '16', '12', '15', '5']
+similar_list: [0.875, 0.625, 0.5, 0.625, 0.75, 0.375, 0.5]
+score_list: [2.309913793103448, 1.583477011494253, 1.0008620689655172, 1.339367816091954, 1.5152298850574712, 0.7508620689655172, 1.000287356321839]
+dict_word_score: {'1a': 2.309913793103448, '26': 1.583477011494253, '12': 1.5152298850574712, '16': 1.339367816091954, '14': 1.0008620689655172, '5': 1.000287356321839, '15': 0.7508620689655172}
+
+--------FAILURE--------
+a<--FOUND
+00001010
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+16<--EXPECTED
+00010110
+14<--EXPECTED
+00010100
+I103.1: FAILURE (LH VIBRATION RET)
+5<--EXPECTED
+00000101
+I103.0: FAILURE (LH VIBRATION ADV)
+15<--EXPECTED
+00010101
+way: []
+
+#############################
+date and time = 2023-05-22 07:31:21
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 569, '12': 191}
+last state: 16
+state_list: ['1a', '12']
+similar_list: [0.625, 0.75]
+score_list: [1.9986842105263158, 1.7513157894736842]
+dict_word_score: {'1a': 1.9986842105263158, '12': 1.7513157894736842}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+way: ['1a', '12', '16']
+
+#############################
+date and time = 2023-05-22 08:02:22
+6 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'1a': 569, '12': 191}
+last state: 16
+state_list: ['1a', '12']
+similar_list: [0.625, 0.75]
+score_list: [1.9986842105263158, 1.7513157894736842]
+dict_word_score: {'1a': 1.9986842105263158, '12': 1.7513157894736842}
+
+--------FAILURE--------
+6<--FOUND
+00000110
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+16<--EXPECTED
+00010110
+12<--EXPECTED
+00010010
+way: ['1a', '12', '16']
+
+#############################
+date and time = 2023-06-06 03:08:16
+16 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1506}
+last state: 1a
+state_list: ['12']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'12': 2.75}
+
+--------FAILURE--------
+16<--FOUND
+00010110
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a']
+
+#############################
+date and time = 2023-06-08 05:44:45
+16 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1532}
+last state: 1a
+state_list: ['12']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'12': 2.75}
+
+--------FAILURE--------
+16<--FOUND
+00010110
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a']
+
+#############################
+date and time = 2023-06-11 19:20:57
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1546}
+last state: 1a
+state_list: ['12']
+similar_list: [0.75]
+score_list: [2.5]
+dict_word_score: {'12': 2.5}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a']
+
+#############################
+date and time = 2023-06-11 20:44:27
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 1756, '1a': 3285, '16': 134, '12': 61}
+last state: None
+state_list: ['26', '1a', '16', '12']
+similar_list: [0.625, 0.625, 0.625, 0.75]
+score_list: [1.5853705118411001, 1.8773873185637893, 1.2755920550038198, 1.511650114591291]
+dict_word_score: {'1a': 1.8773873185637893, '26': 1.5853705118411001, '12': 1.511650114591291, '16': 1.2755920550038198}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+16<--EXPECTED
+00010110
+way: []
+
+#############################
+date and time = 2023-06-14 07:15:13
+16 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1567}
+last state: 1a
+state_list: ['12']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'12': 2.75}
+
+--------FAILURE--------
+16<--FOUND
+00010110
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a']
+
+#############################
+date and time = 2023-06-17 05:00:48
+16 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 1618}
+last state: 1a
+state_list: ['12']
+similar_list: [0.875]
+score_list: [2.75]
+dict_word_score: {'12': 2.75}
+
+--------FAILURE--------
+16<--FOUND
+00010110
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.2: FAILURE (DRIVE LINE ADV)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+way: ['1a']
+
+#############################
+date and time = 2023-07-11 08:33:18
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'26': 2144, '1a': 4059, '16': 136, '12': 61}
+last state: None
+state_list: ['26', '1a', '16', '12']
+similar_list: [0.625, 0.625, 0.625, 0.75]
+score_list: [1.585, 1.88421875, 1.27125, 1.50953125]
+dict_word_score: {'1a': 1.88421875, '26': 1.585, '12': 1.50953125, '16': 1.27125}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+1a<--EXPECTED
+00011010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.3: FAILURE (DRIVE LINE RET)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+26<--EXPECTED
+00100110
+I103.5: FAILURE (HEAD STOCK #1RET)
+I103.2: FAILURE (DRIVE LINE ADV)
+12<--EXPECTED
+00010010
+16<--EXPECTED
+00010110
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:12
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 2014, '16': 1}
+last state: 1a
+state_list: ['12', '16']
+similar_list: [0.75, 0.625]
+score_list: [2.499503722084367, 1.2504962779156328]
+dict_word_score: {'12': 2.499503722084367, '16': 1.2504962779156328}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+16<--EXPECTED
+00010110
+I103.2: FAILURE (DRIVE LINE ADV)
+way: ['1a']
+
+#############################
+date and time = 2023-07-22 06:45:43
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'12': 2074, '16': 2}
+last state: 1a
+state_list: ['12', '16']
+similar_list: [0.75, 0.625]
+score_list: [2.4990366088631983, 1.2509633911368014]
+dict_word_score: {'12': 2.4990366088631983, '16': 1.2509633911368014}
+
+--------FAILURE--------
+0<--FOUND
+00000000
+12<--EXPECTED
+00010010
+-----------------------------------------
+I103.4: FAILURE (HEAD STOCK #1ADV)
+I103.1: FAILURE (LH VIBRATION RET)
+RECOMMENDED TO CHECK: 
+1a<--EXPECTED
+00011010
+I103.3: FAILURE (DRIVE LINE RET)
+16<--EXPECTED
+00010110
+I103.2: FAILURE (DRIVE LINE ADV)
+way: ['1a']

@@ -1,0 +1,33 @@
+
+
+#############################
+date and time = 2023-03-02 16:23:23
+95 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'aa': 5348, '94': 13, '9a': 1}
+last state: None
+state_list: ['aa', '94', '9a']
+similar_list: [4, 13, 8]
+score_list: [5356, 39, 17]
+dict_word_score: {'aa': 5356, '94': 39, '9a': 17}
+
+--------FAILURE--------
+95<--FOUND
+10010101
+aa<--EXPECTED
+10101010
+-----------------------------------------
+I101.5: FAILURE (OCV IN 1ST UP)
+I101.4: FAILURE (OCV IN 1ST DOWN)
+I101.3: FAILURE (CMP IN RET)
+I101.2: FAILURE (CMP IN ADV)
+I101.1: FAILURE (HEAD VIBRATION UP)
+I101.0: FAILURE (HEAD VIBRATION DOWN)
+RECOMMENDED TO CHECK: 
+94<--EXPECTED
+10010100
+9a<--EXPECTED
+10011010
+way: []

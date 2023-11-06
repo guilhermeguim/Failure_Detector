@@ -1,0 +1,1333 @@
+
+
+#############################
+date and time = 2023-03-13 19:22:49
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 870}
+last state: 500
+state_list: ['580']
+similar_list: [18]
+score_list: [906]
+dict_word_score: {'580': 906}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+
+#############################
+date and time = 2023-03-15 05:04:45
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 870}
+last state: 500
+state_list: ['580']
+similar_list: [18]
+score_list: [906]
+dict_word_score: {'580': 906}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+way: ['500']
+
+#############################
+date and time = 2023-03-15 05:05:10
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-15 05:05:22
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-15 05:07:01
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:38:33
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 13:40:47
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:40:58
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:42:45
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:46:58
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 13:48:12
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:48:23
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:50:01
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:54:05
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 13:56:23
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:56:34
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 13:58:23
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:02:27
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 14:18:22
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:18:34
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:20:12
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:24:58
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 14:25:23
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:25:34
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:27:14
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:30:36
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 14:31:36
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:31:47
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:33:27
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:36:38
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'580': 1}
+last state: 900
+state_list: ['580']
+similar_list: [18]
+score_list: [37]
+dict_word_score: {'580': 37}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+900<--EXPECTED
+0000100100000000
+I500.7: FAILURE (NO INFO)
+way: ['900']
+
+#############################
+date and time = 2023-03-16 14:39:22
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-03-16 14:39:33
+980 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 3}
+last state: None
+state_list: ['500', '580', '900']
+similar_list: [15, 18, 19]
+score_list: [2700, 2705, 41]
+dict_word_score: {'580': 2705, '500': 2700, '900': 41}
+
+--------FAILURE--------
+980<--FOUND
+0000100110000000
+580<--EXPECTED
+0000010110000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+500<--EXPECTED
+0000010100000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+way: []
+
+#############################
+date and time = 2023-04-16 18:40:37
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 775, '980': 768}
+last state: None
+state_list: ['500', '580', '900', '980']
+similar_list: [0.875, 0.8125, 0.875, 0.8125]
+score_list: [2.1379686137750653, 2.012823307178146, 1.8626126126126126, 1.736595466434176]
+dict_word_score: {'500': 2.1379686137750653, '580': 2.012823307178146, '900': 1.8626126126126126, '980': 1.736595466434176}
+
+--------FAILURE--------
+0<--FOUND
+0000000000000000
+500<--EXPECTED
+0000010100000000
+-----------------------------------------
+I501.2: FAILURE (NO INFO)
+I501.0: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+580<--EXPECTED
+0000010110000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+I501.3: FAILURE (NO INFO)
+980<--EXPECTED
+0000100110000000
+way: []
+
+#############################
+date and time = 2023-04-17 14:21:33
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'500': 2670, '580': 2669, '900': 791, '980': 783}
+last state: None
+state_list: ['500', '580', '900', '980']
+similar_list: [0.9375, 0.875, 0.9375, 0.875]
+score_list: [2.2612288442065673, 2.136084189208737, 1.9894221032836685, 1.8632648633010271]
+dict_word_score: {'500': 2.2612288442065673, '580': 2.136084189208737, '900': 1.9894221032836685, '980': 1.8632648633010271}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+500<--EXPECTED
+0000010100000000
+-----------------------------------------
+I501.2: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+580<--EXPECTED
+0000010110000000
+I500.7: FAILURE (NO INFO)
+900<--EXPECTED
+0000100100000000
+I501.3: FAILURE (NO INFO)
+980<--EXPECTED
+0000100110000000
+way: []
+
+#############################
+date and time = 2023-05-31 13:21:25
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2507, '980': 2502}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3754991016170894, 2.2495008983829106]
+dict_word_score: {'900': 2.3754991016170894, '980': 2.2495008983829106}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-05-31 13:23:15
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2507, '980': 2502}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3754991016170894, 2.2495008983829106]
+dict_word_score: {'900': 2.3754991016170894, '980': 2.2495008983829106}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-11 19:30:01
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2662, '980': 2645}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3766016581872997, 2.2483983418127003]
+dict_word_score: {'900': 2.3766016581872997, '980': 2.2483983418127003}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-11 20:37:03
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2662, '980': 2645}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3766016581872997, 2.2483983418127003]
+dict_word_score: {'900': 2.3766016581872997, '980': 2.2483983418127003}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-11 20:40:30
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2662, '980': 2645}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3766016581872997, 2.2483983418127003]
+dict_word_score: {'900': 2.3766016581872997, '980': 2.2483983418127003}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-11 20:45:10
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 2662, '980': 2645}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.875, 0.8125]
+score_list: [2.2516016581872997, 2.1233983418127003]
+dict_word_score: {'900': 2.2516016581872997, '980': 2.1233983418127003}
+
+--------FAILURE--------
+0<--FOUND
+0000000000000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.0: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-30 22:12:36
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3098, '980': 3073}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.377025603629882, 2.247974396370118]
+dict_word_score: {'900': 2.377025603629882, '980': 2.247974396370118}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-06-30 22:14:35
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3098, '980': 3073}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.377025603629882, 2.247974396370118]
+dict_word_score: {'900': 2.377025603629882, '980': 2.247974396370118}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-11 08:34:51
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3262, '980': 3234}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.377155172413793, 2.247844827586207]
+dict_word_score: {'900': 2.377155172413793, '980': 2.247844827586207}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-11 08:39:29
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3262, '980': 3234}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.377155172413793, 2.247844827586207]
+dict_word_score: {'900': 2.377155172413793, '980': 2.247844827586207}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-11 08:41:29
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3262, '980': 3234}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.377155172413793, 2.247844827586207]
+dict_word_score: {'900': 2.377155172413793, '980': 2.247844827586207}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-18 15:37:44
+0 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3415, '980': 3387}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.875, 0.8125]
+score_list: [2.2520582181711264, 2.122941781828874]
+dict_word_score: {'900': 2.2520582181711264, '980': 2.122941781828874}
+
+--------FAILURE--------
+0<--FOUND
+0000000000000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+I501.0: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-18 15:38:48
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3415, '980': 3387}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3770582181711264, 2.247941781828874]
+dict_word_score: {'900': 2.3770582181711264, '980': 2.247941781828874}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
+
+#############################
+date and time = 2023-07-18 15:39:41
+100 <-- FAILURE DETECTED
+
+
+---FAILURE LOG---
+POSSIBLE NEXT STATES: states: {'900': 3415, '980': 3387}
+last state: None
+state_list: ['900', '980']
+similar_list: [0.9375, 0.875]
+score_list: [2.3770582181711264, 2.247941781828874]
+dict_word_score: {'900': 2.3770582181711264, '980': 2.247941781828874}
+
+--------FAILURE--------
+100<--FOUND
+0000000100000000
+900<--EXPECTED
+0000100100000000
+-----------------------------------------
+I501.3: FAILURE (NO INFO)
+RECOMMENDED TO CHECK: 
+980<--EXPECTED
+0000100110000000
+I500.7: FAILURE (NO INFO)
+way: []
